@@ -1,5 +1,7 @@
 # P&ID Knowledge Graph Pipeline
 
+**Take a look at a [quick demo](https://drive.google.com/file/d/1vYq7hsT21G1jetmd-RR8H-9xC3OIag6T/view?usp=sharing)!**
+
 This project builds a knowledge graph from a P&ID PDF and supports:
 
 - multimodal entity/relation extraction with iterative zoom requests

@@ -1,0 +1,47 @@
+SOP vs KG Operating Limits Dashboard
+==============================================================================
+Generated at: 2026-02-20T21:05:31.522094+00:00
+SOP file: data/sop/sop.docx
+Doc ID: pid_demo
+Checked SOP items: 5
+Discrepancies: 0
+
+Summary
+------------------------------------------------------------------------------
+Pressure status -> within_mwp=2 exceeds_mwp=0 missing_data=3 missing_entity=0
+
+Per-Item Results
+------------------------------------------------------------------------------
+[1] F-715 A and B Particulate Filters
+  Entity: F-715A (E1)
+  MWP @ reference temperature: expected<=275.0 psig at 100.0 F (+/- 15.0 F) | evaluated points=[(230.0 psig @ 100.0 F)] | status=within_mwp
+  Notes: [F-715A and F-715B are identical particulate filter separators with design pressure of 275 PSIG at 100 F.; Operating pressure is typically 230 PSIG.; ... (+2 more)]
+  Tool calls: 2
+
+[2] V-745 Stabilizer Tower
+  Entity: V-745 (V-745)
+  MWP @ reference temperature: expected<=300.0 psig at 375.0 F (+/- 15.0 F) | evaluated points=[(300.0 psig @ 375.0 F)] | status=within_mwp
+  Notes: [Maximum Working Pressure (MWP) is 300 PSIG at 375°F for the Stabilizer Tower V-745.; Safety Pressure Relief Valve PSV-745-151 is set at 300 PSIG.; ... (+1 more)]
+  Tool calls: 1
+
+[3] E-742 Exchanger (Shell)
+  Entity: E-742 Exchanger (Shell) (e2)
+  MWP @ reference temperature: expected<=300.0 psig at 375.0 F (+/- 15.0 F) | evaluated points=[] | status=missing_data
+  Notes: [The entity E-742 corresponds to a Heat Recovery Exchanger with insulation thickness 2 inches and a temperature setpoint of 90°F indicated on the exchanger drawings.; No explicit pressure values were found in the retrieved data or entity description.; ... (+3 more)]
+  Tool calls: 6
+
+[4] E-742 Exchanger (Tube)
+  Entity: E-742 (e2)
+  MWP @ reference temperature: expected<=300.0 psig at 250.0 F (+/- 15.0 F) | evaluated points=[] | status=missing_data
+  Notes: [The only temperature observation related to E-742 in the knowledge is a setpoint of 90°F for the insulation thickness.; No pressure observations were found related to E-742.; ... (+3 more)]
+  Tool calls: 2
+
+[5] AC-746 After Cooler
+  Entity: AC-746 After Cooler (e1)
+  MWP @ reference temperature: expected<=350.0 psig at -20.0 F (+/- 15.0 F) | evaluated points=[] | status=missing_data
+  Notes: [The AC-746 After Cooler has an associated temperature control setpoint of 100°F as per the temperature control instrumentation (TIC 747 / TIT 747 / TW 747).; No pressure values or limits were found in the knowledge graph for this entity.; ... (+3 more)]
+  Tool calls: 2
+
+Discrepancy Details
+------------------------------------------------------------------------------
+No discrepancies found.
