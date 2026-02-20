@@ -5,12 +5,7 @@
 ```bash
 cd frontend
 npm install
-```
-
-Create `.env.local`:
-
-```bash
-NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000
+cp .env.local.example .env.local
 ```
 
 ## Run

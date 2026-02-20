@@ -20,11 +20,44 @@ If legacy files exist (`data/diagram_page1.pdf`, `data/sop.docx`), they are copi
 
 ## Install
 
+Backend (Python):
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Frontend (Node):
+
+```bash
+cd frontend
+npm install
+```
+
+## Quick Start (FastAPI + Next.js)
+
+From the project root, start the backend with FastAPI CLI:
+
+```bash
+fastapi dev src/api_server.py --host 127.0.0.1 --port 8000
+```
+
+If `fastapi` CLI is not available, use:
+
+```bash
+PYTHONPATH=src uvicorn api_server:app --host 127.0.0.1 --port 8000 --reload
+```
+
+In a second terminal, start the frontend:
+
+```bash
+cd frontend
+cp .env.local.example .env.local
+npm run dev
+```
+
+Open `http://localhost:3000`.
 
 ## Environment
 
@@ -129,18 +162,25 @@ In-chat commands:
 
 Run the new web app stack:
 
-1) Start FastAPI backend:
+1) Start FastAPI backend (recommended):
+
+```bash
+fastapi dev src/api_server.py --host 127.0.0.1 --port 8000
+```
+
+Fallback backend command:
 
 ```bash
 PYTHONPATH=src uvicorn api_server:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-2) Start Next.js frontend:
+2) Install and start Next.js frontend:
 
 ```bash
 cd frontend
 npm install
-NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000 npm run dev
+cp .env.local.example .env.local
+npm run dev
 ```
 
 Frontend tabs:
