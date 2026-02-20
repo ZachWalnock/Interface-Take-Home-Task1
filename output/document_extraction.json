@@ -1,0 +1,2775 @@
+{
+  "doc_id": "pid_demo",
+  "pages": [
+    {
+      "page_number": 1,
+      "entities": [
+        {
+          "entity_id": "E1",
+          "name": "F-715A",
+          "entity_type": "Particulate Filter Separator (vessel)",
+          "description": "Left unit of the F-715 A & B particulate filter separators (parallel pair). Identified tag F-715A on the vessel shell.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.3,
+            "top": 0.33,
+            "right": 0.42,
+            "bottom": 0.6,
+            "label": "F-715A_area"
+          },
+          "aliases": [
+            "Filter F-715A"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "size",
+              "value": "18\" O.D. x 42.5\" T/T",
+              "unit": null,
+              "raw_text": "18\" O.D. x 42.5\" T/T",
+              "confidence": 0.95,
+              "bbox": null
+            },
+            {
+              "kind": "operating_pressure",
+              "value": 230.0,
+              "unit": "PSIG",
+              "raw_text": "OPERATING: 230 PSIG",
+              "confidence": 0.95,
+              "bbox": null
+            },
+            {
+              "kind": "design_pressure",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "DESIGN: 275 PSIG @ 100F",
+              "confidence": 0.95,
+              "bbox": null
+            },
+            {
+              "kind": "design_temperature",
+              "value": 100.0,
+              "unit": "F",
+              "raw_text": "DESIGN: 275 PSIG @ 100F",
+              "confidence": 0.9,
+              "bbox": null
+            },
+            {
+              "kind": "mdmt",
+              "value": "-20 F @ 275 PSIG",
+              "unit": null,
+              "raw_text": "MDMT: -20F @ 275 PSIG",
+              "confidence": 0.9,
+              "bbox": null
+            },
+            {
+              "kind": "design_capacity",
+              "value": "180 GPM @ 2.25 PSID",
+              "unit": null,
+              "raw_text": "DESIGN CAP: 180 GPM @ 2.25 PSID CLEAN",
+              "confidence": 0.9,
+              "bbox": null
+            },
+            {
+              "kind": "relief_setpoint",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "PSV set @ 275 PSIG (PSV 715A)",
+              "confidence": 0.92,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.99
+        },
+        {
+          "entity_id": "E2",
+          "name": "F-715B",
+          "entity_type": "Particulate Filter Separator (vessel)",
+          "description": "Right unit of the F-715 A & B particulate filter separators (parallel pair). Identified tag F-715B on the vessel shell.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.58,
+            "top": 0.33,
+            "right": 0.7,
+            "bottom": 0.6,
+            "label": "F-715B_area"
+          },
+          "aliases": [
+            "Filter F-715B"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "size",
+              "value": "18\" O.D. x 42.5\" T/T",
+              "unit": null,
+              "raw_text": "18\" O.D. x 42.5\" T/T",
+              "confidence": 0.92,
+              "bbox": null
+            },
+            {
+              "kind": "operating_pressure",
+              "value": 230.0,
+              "unit": "PSIG",
+              "raw_text": "OPERATING: 230 PSIG",
+              "confidence": 0.92,
+              "bbox": null
+            },
+            {
+              "kind": "design_pressure",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "DESIGN: 275 PSIG @ 100F",
+              "confidence": 0.92,
+              "bbox": null
+            },
+            {
+              "kind": "design_temperature",
+              "value": 100.0,
+              "unit": "F",
+              "raw_text": "DESIGN: 275 PSIG @ 100F",
+              "confidence": 0.88,
+              "bbox": null
+            },
+            {
+              "kind": "mdmt",
+              "value": "-20 F @ 275 PSIG",
+              "unit": null,
+              "raw_text": "MDMT: -20F @ 275 PSIG",
+              "confidence": 0.88,
+              "bbox": null
+            },
+            {
+              "kind": "design_capacity",
+              "value": "180 GPM @ 2.25 PSID",
+              "unit": null,
+              "raw_text": "DESIGN CAP: 180 GPM @ 2.25 PSID CLEAN",
+              "confidence": 0.88,
+              "bbox": null
+            },
+            {
+              "kind": "relief_setpoint",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "PSV set @ 275 PSIG (PSV 715B)",
+              "confidence": 0.92,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.99
+        },
+        {
+          "entity_id": "E3",
+          "name": "V-710",
+          "entity_type": "Slug catcher (external vessel)",
+          "description": "Slug catcher shown as source feeding the F-715A/B inlet (label on left edge 'FROM SLUG CATCHER V-710').",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.02,
+            "top": 0.28,
+            "right": 0.3,
+            "bottom": 0.6,
+            "label": "left_connection_area"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "E4",
+          "name": "V-720 (Surge drum)",
+          "entity_type": "Surge drum (vessel)",
+          "description": "Surge drum referenced on right-side piping header ('TO SURGE DRUM V-720'). Appears to be a destination for the filter outlet header.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.7,
+            "top": 0.16,
+            "right": 0.99,
+            "bottom": 0.58,
+            "label": "right_connection_area"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "E5",
+          "name": "V-005 (Closed drain tank)",
+          "entity_type": "Closed drain tank (vessel)",
+          "description": "Closed drain tank shown as a destination on the top header ('TO CLOSED DRAIN TANK V-005').",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.7,
+            "top": 0.16,
+            "right": 0.99,
+            "bottom": 0.58,
+            "label": "right_connection_area"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "E6",
+          "name": "V-73D (Condensate 2-phase separator)",
+          "entity_type": "2-phase separator (vessel)",
+          "description": "Label on right-side branch reads 'TO CONDENSATE 2 PHASE SEPARATOR V-73D' (OCR uncertain on the digit/letter; likely V-730 or V-73D). Marked as a condensate separator destination from the header.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.7,
+            "top": 0.16,
+            "right": 0.99,
+            "bottom": 0.58,
+            "label": "right_connection_area"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.7
+        },
+        {
+          "entity_id": "PSV-715A",
+          "name": "PSV 715A",
+          "entity_type": "pressure_safety_valve",
+          "description": "Relief valve on F-715A. Setpoint noted on drawing.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.33,
+            "top": 0.28,
+            "right": 0.425,
+            "bottom": 0.36,
+            "label": null
+          },
+          "aliases": [
+            "PSV 715 A"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pressure_setpoint",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "SET @ 275 PSIG",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "PSV-715B",
+          "name": "PSV 715B",
+          "entity_type": "pressure_safety_valve",
+          "description": "Relief valve on F-715B. Setpoint noted on drawing.",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.63,
+            "top": 0.28,
+            "right": 0.72,
+            "bottom": 0.36,
+            "label": null
+          },
+          "aliases": [
+            "PSV 715 B"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pressure_setpoint",
+              "value": 275.0,
+              "unit": "PSIG",
+              "raw_text": "SET @ 275 PSIG",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "MV-715-10A",
+          "name": "MV-715-10A",
+          "entity_type": "valve",
+          "description": "1\" relief discharge valve on PSV 715A relieving to common header",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.42,
+            "top": 0.26,
+            "right": 0.48,
+            "bottom": 0.34,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1\"-D2S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "MV-715-10B",
+          "name": "MV-715-10B",
+          "entity_type": "valve",
+          "description": "1\" relief discharge valve on PSV 715B relieving to common header",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.68,
+            "top": 0.26,
+            "right": 0.74,
+            "bottom": 0.34,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1\"-D2S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "PI-715A",
+          "name": "PI 715A",
+          "entity_type": "pressure_indicator",
+          "description": "Local pressure indicator for F-715A (side tap)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.47,
+            "top": 0.46,
+            "right": 0.53,
+            "bottom": 0.54,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "instrument_tap_line",
+              "value": null,
+              "unit": null,
+              "raw_text": "1\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "PI-715B",
+          "name": "PI 715B",
+          "entity_type": "pressure_indicator",
+          "description": "Local pressure indicator for F-715B (side tap)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.61,
+            "top": 0.44,
+            "right": 0.67,
+            "bottom": 0.52,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "instrument_tap_line",
+              "value": null,
+              "unit": null,
+              "raw_text": "1\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "DPI-715A",
+          "name": "DPI 715A",
+          "entity_type": "differential_pressure_indicator",
+          "description": "Differential pressure indicator connected to F-715A (left)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.28,
+            "top": 0.48,
+            "right": 0.335,
+            "bottom": 0.575,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "instrument_tap_line",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.8,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.88
+        },
+        {
+          "entity_id": "DPI-715B",
+          "name": "DPI 715B",
+          "entity_type": "differential_pressure_indicator",
+          "description": "Differential pressure indicator connected to F-715B (right)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.58,
+            "right": 0.72,
+            "bottom": 0.7,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "instrument_tap_line",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.8,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.88
+        },
+        {
+          "entity_id": "MV-715-12A",
+          "name": "MV-715-12A",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve on DPI/side tap to F-715A",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.33,
+            "top": 0.54,
+            "right": 0.39,
+            "bottom": 0.6,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "MV-715-13A",
+          "name": "MV-715-13A",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve on lower DPI tap on F-715A",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.32,
+            "top": 0.62,
+            "right": 0.38,
+            "bottom": 0.7,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "MV-715-12B",
+          "name": "MV-715-12B",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve on DPI/side tap to F-715B",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.58,
+            "right": 0.72,
+            "bottom": 0.64,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "MV-715-13B",
+          "name": "MV-715-13B",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve on lower DPI tap on F-715B",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.66,
+            "right": 0.72,
+            "bottom": 0.72,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "MV-715-02A",
+          "name": "MV-715-02A",
+          "entity_type": "valve",
+          "description": "6\" outlet isolation valve on F-715A connecting to common header (6\"-D2R)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.515,
+            "top": 0.45,
+            "right": 0.575,
+            "bottom": 0.52,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"-D2R",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "MV-715-01",
+          "name": "MV-715-01",
+          "entity_type": "valve",
+          "description": "6\" outlet isolation valve on F-715B connecting to common header (6\"-D2R)",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.78,
+            "top": 0.42,
+            "right": 0.82,
+            "bottom": 0.48,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"-D2R",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "interconnect_spool",
+          "name": "Interconnect (A-B)",
+          "entity_type": "pipe_spool",
+          "description": "6\" crossover between F-715A and F-715B with isolation valves on each side (cloud label shown).",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.44,
+            "top": 0.32,
+            "right": 0.64,
+            "bottom": 0.44,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.88
+        },
+        {
+          "entity_id": "MV-715-06A",
+          "name": "MV-715-06A",
+          "entity_type": "valve",
+          "description": "Isolation valve on the interconnect side near F-715A",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.49,
+            "top": 0.32,
+            "right": 0.52,
+            "bottom": 0.36,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "MV-715-06B",
+          "name": "MV-715-06B",
+          "entity_type": "valve",
+          "description": "Isolation valve on the interconnect side near F-715B",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.59,
+            "top": 0.32,
+            "right": 0.62,
+            "bottom": 0.36,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "header_main_right",
+          "name": "Filter common header (to exports)",
+          "entity_type": "pipe",
+          "description": "Common outlet header collecting from F-715A/B and routing to export lines (surge drum, closed drain tank, condensate separator).",
+          "page_number": 1,
+          "bbox": {
+            "left": 0.62,
+            "top": 0.05,
+            "right": 0.99,
+            "bottom": 0.38,
+            "label": null
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "pipe_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "6\"-PL-2240-D (to V-720)",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "R1",
+          "source_ref": "E3",
+          "target_ref": "E1",
+          "relation_type": "feeds_to",
+          "line_id": null,
+          "description": "Flow from slug catcher V-710 into F-715A (inlet header splits to both filters).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": "R2",
+          "source_ref": "E3",
+          "target_ref": "E2",
+          "relation_type": "feeds_to",
+          "line_id": null,
+          "description": "Flow from slug catcher V-710 into F-715B (inlet header splits to both filters).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": "R3",
+          "source_ref": "E1",
+          "target_ref": "E4",
+          "relation_type": "discharges_to",
+          "line_id": null,
+          "description": "Outlet/header from F-715A connects to surge drum V-720 (6\" line).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R4",
+          "source_ref": "E2",
+          "target_ref": "E4",
+          "relation_type": "discharges_to",
+          "line_id": null,
+          "description": "Outlet/header from F-715B connects to surge drum V-720 (6\" line).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R5",
+          "source_ref": "E1",
+          "target_ref": "E5",
+          "relation_type": "branches_to",
+          "line_id": null,
+          "description": "Top header from filters has branch to closed drain tank V-005 (visible on right-side header).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": "R6",
+          "source_ref": "E1",
+          "target_ref": "E6",
+          "relation_type": "branches_to",
+          "line_id": null,
+          "description": "Filter/header has a branch labeled 'TO CONDENSATE 2 PHASE SEPARATOR V-73D' (destination uncertain, transcribed as V-73D).",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.75
+        },
+        {
+          "relation_id": "r1",
+          "source_ref": "PSV-715A",
+          "target_ref": "F-715A",
+          "relation_type": "mounted_on",
+          "line_id": null,
+          "description": "PSV 715A mounted on F-715A relief nozzle",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r2",
+          "source_ref": "PSV-715B",
+          "target_ref": "F-715B",
+          "relation_type": "mounted_on",
+          "line_id": null,
+          "description": "PSV 715B mounted on F-715B relief nozzle",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r3",
+          "source_ref": "MV-715-10A",
+          "target_ref": "PSV-715A",
+          "relation_type": "protects_from",
+          "line_id": null,
+          "description": "Relief discharge valve immediately downstream of PSV 715A, 1\"-D2S",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r4",
+          "source_ref": "MV-715-10B",
+          "target_ref": "PSV-715B",
+          "relation_type": "protects_from",
+          "line_id": null,
+          "description": "Relief discharge valve immediately downstream of PSV 715B, 1\"-D2S",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r5",
+          "source_ref": "MV-715-02A",
+          "target_ref": "F-715A",
+          "relation_type": "outlet_isolation",
+          "line_id": null,
+          "description": "6\" outlet isolation valve on F-715A to common header",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r6",
+          "source_ref": "MV-715-01",
+          "target_ref": "F-715B",
+          "relation_type": "outlet_isolation",
+          "line_id": null,
+          "description": "6\" outlet isolation valve on F-715B to common header",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r7",
+          "source_ref": "interconnect_spool",
+          "target_ref": "F-715A",
+          "relation_type": "connected_to",
+          "line_id": null,
+          "description": "Interconnect spool between A and B connects to F-715A",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": "r8",
+          "source_ref": "interconnect_spool",
+          "target_ref": "F-715B",
+          "relation_type": "connected_to",
+          "line_id": null,
+          "description": "Interconnect spool between A and B connects to F-715B",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": "r9",
+          "source_ref": "PI-715A",
+          "target_ref": "F-715A",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "Pressure indicator PI 715A taps vessel side",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r10",
+          "source_ref": "PI-715B",
+          "target_ref": "F-715B",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "Pressure indicator PI 715B taps vessel side",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r11",
+          "source_ref": "DPI-715A",
+          "target_ref": "F-715A",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "Differential pressure indicator DPI 715A connected to F-715A (inlet/outlet DP)",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": "r12",
+          "source_ref": "DPI-715B",
+          "target_ref": "F-715B",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "Differential pressure indicator DPI 715B connected to F-715B (inlet/outlet DP)",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": "r13",
+          "source_ref": "header_main_right",
+          "target_ref": "F-715A",
+          "relation_type": "collects_from",
+          "line_id": null,
+          "description": "Common header collects flow from F-715A via MV-715-02A (6\"-D2R)",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r14",
+          "source_ref": "header_main_right",
+          "target_ref": "F-715B",
+          "relation_type": "collects_from",
+          "line_id": null,
+          "description": "Common header collects flow from F-715B via MV-715-01 (6\"-D2R)",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "r15",
+          "source_ref": "header_main_right",
+          "target_ref": "V-005",
+          "relation_type": "routes_to",
+          "line_id": null,
+          "description": "Header contains branch labeled '1\"-RV-6119-A TO CLOSED DRAIN TANK V-005' (closed drain export) with MV-715-11 on header",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r16",
+          "source_ref": "header_main_right",
+          "target_ref": "V-720",
+          "relation_type": "routes_to",
+          "line_id": null,
+          "description": "Header contains export to SURGE DRUM V-720 via '6\"-PL-2240-D' and a valve MV-720-01 shown on the export line",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "r17",
+          "source_ref": "header_main_right",
+          "target_ref": "V-73D",
+          "relation_type": "routes_to",
+          "line_id": null,
+          "description": "Header contains export to CONDENSATE 2-PHASE SEPARATOR V-73D (label visible on drawing export lines at top-right)",
+          "page_number": 1,
+          "attributes": {},
+          "confidence": 0.85
+        }
+      ],
+      "notes": [
+        "Extracted the two primary vessels F-715A and F-715B and their key design/operating parameters from the title block: size 18\" O.D. x 42.5\" T/T; Operating 230 PSIG; Design 275 PSIG @ 100F; MDMT -20F @ 275 PSIG; Design capacity 180 GPM @ 2.25 PSID clean. PSV relief setpoints near each vessel read 275 PSIG.",
+        "High-level connections captured: inlet from slug catcher V-710; outlets/branches to surge drum V-720, closed drain tank V-005, and a condensate 2-phase separator labeled 'V-73D' (OCR uncertain \u2014 likely V-730 or V-73D).",
+        "Confidence reduced where text was small/ambiguous (noted above). No small valves/instruments were extracted beyond relief setpoints which are clearly tied to the vessels.",
+        "PSV setpoints explicitly shown: PSV 715A and PSV 715B set @ 275 PSIG (extracted from nearby text).",
+        "Instrument tap sizes: instrument lines shown as 1/2\"-D2S and 1\"-D2S for DPI/PI connections; relief lines are 1\"-D2S.",
+        "Main outlet lines from vessels are 6\" nominal (6\"-D2R) to a common header; header exports to V-005 (closed drain), V-720 (surge drum), and V-73D (condensate 2-phase separator).",
+        "Where valve tags or small text were partially obscured, confidence is reduced and the tag/size was transcribed conservatively as shown on drawing.",
+        "Merged extraction: step1 major components + step2 detailed components."
+      ]
+    },
+    {
+      "page_number": 2,
+      "entities": [
+        {
+          "entity_id": "V-745",
+          "name": "V-745",
+          "entity_type": "vessel",
+          "description": "NGL Stabilizer (vertical stabilizer tower). Shown with internal trays/mesh pad and multiple nozzles.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.36,
+            "top": 0.06,
+            "right": 0.7,
+            "bottom": 0.78,
+            "label": "stabilizer_vessel"
+          },
+          "aliases": [
+            "NGL STABILIZER"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "design_rating",
+              "value": "300",
+              "unit": "PSIG @ \u00b0F",
+              "raw_text": "M.W.P.: 300 PSIG @ 375\u00b0F",
+              "confidence": 0.9,
+              "bbox": null
+            },
+            {
+              "kind": "safety_relief_set",
+              "value": "300",
+              "unit": "PSIG",
+              "raw_text": "PSV 745-151 SET AT 300 PSIG",
+              "confidence": 0.9,
+              "bbox": {
+                "left": 0.46,
+                "top": 0.08,
+                "right": 0.66,
+                "bottom": 0.2,
+                "label": "psv_top_right"
+              }
+            }
+          ],
+          "confidence": 0.99
+        },
+        {
+          "entity_id": "P-745",
+          "name": "P-745",
+          "entity_type": "pump",
+          "description": "Submersible sump pump (pad/sump mounted). Shown with motor and HOA control.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.02,
+            "top": 0.64,
+            "right": 0.34,
+            "bottom": 0.94,
+            "label": "sump_pump"
+          },
+          "aliases": [
+            "SUBMERSIBLE SUMP PUMP"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "control",
+              "value": null,
+              "unit": null,
+              "raw_text": "HOA 745",
+              "confidence": 0.9,
+              "bbox": {
+                "left": 0.12,
+                "top": 0.74,
+                "right": 0.22,
+                "bottom": 0.84,
+                "label": "hoa_745"
+              }
+            }
+          ],
+          "confidence": 0.98
+        },
+        {
+          "entity_id": "E-745",
+          "name": "E-745",
+          "entity_type": "reboiler",
+          "description": "Stabilizer reboiler (E-745) \u2014 referenced on piping lines as stabilizer reboiler and reboiled vapor source/sink. Reboiler is off-page but clearly connected by feed/vapor lines.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.74,
+            "top": 0.6,
+            "right": 0.98,
+            "bottom": 0.78,
+            "label": "reboiler_area"
+          },
+          "aliases": [
+            "STABILIZER REBOILER E-745"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "note",
+              "value": null,
+              "unit": null,
+              "raw_text": "Reboiler feed and reboiled vapor lines shown (feed to E-745 and reboiled vapor from E-745)",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "VRU-785",
+          "name": "VRU-785",
+          "entity_type": "unit",
+          "description": "Vapor Recovery Unit (referenced as destination for a V-745 overhead/vapor line). Off-page reference (connection shown by pipeline arrow).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.74,
+            "top": 0.26,
+            "right": 0.98,
+            "bottom": 0.46,
+            "label": "vru_connection"
+          },
+          "aliases": [
+            "VAPOR RECOVERY UNIT VRU-785"
+          ],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.97
+        },
+        {
+          "entity_id": "NGL_HEAT_RECOVERY_EXCHANGER",
+          "name": "NGL Heat Recovery Exchanger",
+          "entity_type": "heat_exchanger",
+          "description": "NGL heat recovery exchanger (warm feed referenced into piping feeding the stabilizer). Off-page but shown as 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED'.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.74,
+            "top": 0.42,
+            "right": 0.98,
+            "bottom": 0.64,
+            "label": "heat_recovery_feed"
+          },
+          "aliases": [
+            "NGL Heat Recovery Exchanger (heat_exchanger)"
+          ],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": null,
+          "name": "4\"-PG-0532-A",
+          "entity_type": "pipe_line",
+          "description": "4\" process gas line to Vapor Recovery Unit VRU-785. Label: TO VAPOR RECOVERY UNIT VRU-785.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.72,
+            "top": 0.24,
+            "right": 0.98,
+            "bottom": 0.56,
+            "label": "Right-side lines to VRU and E-745 with line IDs and valves"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "size",
+              "value": "4",
+              "unit": "inch",
+              "raw_text": "4\"",
+              "confidence": 0.99,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.98
+        },
+        {
+          "entity_id": null,
+          "name": "4\"-PL-2243-B",
+          "entity_type": "pipe_line",
+          "description": "4\" pipeline FROM NGL HEAT RECOVERY EXCHANGER WARM FEED (to V-745).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.98
+        },
+        {
+          "entity_id": null,
+          "name": "4\"-PL-2242-B",
+          "entity_type": "pipe_line",
+          "description": "4\" pipeline FROM NGL COOL FEED (to V-745).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.98
+        },
+        {
+          "entity_id": null,
+          "name": "6\"-PG-0544-B-2\"H",
+          "entity_type": "pipe_line",
+          "description": "6\" reboiled NGL vapor from stabilizer reboiler E-745 (label indicates 2\" H splice).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "size",
+              "value": "6",
+              "unit": "inch",
+              "raw_text": "6\"",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": null,
+          "name": "4\"-PL-2249-B-1 1/2\"H",
+          "entity_type": "pipe_line",
+          "description": "4\" reboiler feed to stabilizer reboiler E-745 (label shows 1 1/2\" H spool).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-22",
+          "entity_type": "valve",
+          "description": "4\" valve (tag MV-745-22) on top-right horizontal line from V-745 (marked 4\"-B2R).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.55,
+            "top": 0.02,
+            "right": 0.76,
+            "bottom": 0.22,
+            "label": "Top-right valve cluster near PSV"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.92
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-07",
+          "entity_type": "valve",
+          "description": "Inline valve tagged MV-745-07 (4\"-A2R) on mid horizontal line to the right of V-745.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.55,
+            "top": 0.02,
+            "right": 0.76,
+            "bottom": 0.22,
+            "label": "Top-right valve cluster near PSV"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-08",
+          "entity_type": "valve",
+          "description": "Small valve on mid-right line (tag shown near '1\"-D2S'). Associated with the line to VRU-785.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.72,
+            "top": 0.24,
+            "right": 0.98,
+            "bottom": 0.56,
+            "label": "Right-side lines to VRU and E-745 with line IDs and valves"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "PSV-745-151",
+          "entity_type": "safety_valve",
+          "description": "Pressure safety valve located at top-right of V-745. Marked 'PSV 745-151' set at 300 PSIG.",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "setpoint",
+              "value": 300.0,
+              "unit": "PSIG",
+              "raw_text": "SET AT 300 PSIG",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.96
+        },
+        {
+          "entity_id": null,
+          "name": "PI-745-15",
+          "entity_type": "pressure_indicator",
+          "description": "Pressure indicator (PI) on top/upper connection of V-745 (tag PI 745-15).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.92
+        },
+        {
+          "entity_id": null,
+          "name": "PIT-745-15",
+          "entity_type": "pressure_indicator_transmitter",
+          "description": "Pressure transmitter (PIT) paired with PI-745-15 (tag PIT 745-15).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "DPIT-745-145",
+          "entity_type": "differential_pressure_transmitter",
+          "description": "Differential pressure transmitter (DPIT) associated with a 5-valve manifold on the vessel (left-side mid elevation).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.18,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.5,
+            "label": "Left-side instrument manifolds and DPITs"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.88
+        },
+        {
+          "entity_id": null,
+          "name": "DPIT-745-135",
+          "entity_type": "differential_pressure_transmitter",
+          "description": "Differential pressure transmitter (DPIT) associated with a 5-valve manifold on the vessel (left-side lower elevation).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.18,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.5,
+            "label": "Left-side instrument manifolds and DPITs"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.86
+        },
+        {
+          "entity_id": null,
+          "name": "5-valve manifold (top)",
+          "entity_type": "manifold",
+          "description": "5-valve manifold for DP/level taps connected to vessel V-745. Individual piping taps use 1/2\"-D6S lines to manifold. Connected valve tags: MV-745-32 (top), MV-745-33 (mid), MV-745-35 (lower), MV-745-36 (lowest).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D6S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-32",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve feeding top 5-valve manifold (tag on left-side connection).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.3,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.42,
+            "label": "Left-side instrument manifolds and DPITs"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.88
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-33",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-745-33) feeding middle 5-valve manifold.",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.87
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-35",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-745-35) feeding lower 5-valve manifold.",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.87
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-36",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-745-36) feeding lowest 5-valve manifold.",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.87
+        },
+        {
+          "entity_id": null,
+          "name": "HOA-745",
+          "entity_type": "local_control",
+          "description": "Hand-Off-Auto selector near pump P-745 (HOA 745).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.18,
+            "top": 0.38,
+            "right": 0.36,
+            "bottom": 0.62,
+            "label": "P-745 and sump"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-59",
+          "entity_type": "valve",
+          "description": "2\" isolation valve on pump P-745 drain/spill line (tag MV-745-59 shown upstream of drain header).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.18,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.5,
+            "label": "Left-side instrument manifolds and DPITs"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "MV-745-58",
+          "entity_type": "valve",
+          "description": "2\" valve (tag MV-745-58) in pump drain/heat-traced line to closed drain header.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.18,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.5,
+            "label": "P-745 and sump"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "TT-745-151",
+          "entity_type": "temperature_transmitter",
+          "description": "Temperature transmitter (TT 745-151) shown near pump/top instrumentation stack.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.44,
+            "top": 0.04,
+            "right": 0.62,
+            "bottom": 0.18,
+            "label": "Top-of-vessel instruments"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.86
+        },
+        {
+          "entity_id": null,
+          "name": "TW-745-151",
+          "entity_type": "temperature_well",
+          "description": "Temperature well or temperature element (TW 745-151) paired with TT-745-151 at pump/top area.",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.44,
+            "top": 0.04,
+            "right": 0.62,
+            "bottom": 0.18,
+            "label": "Top-of-vessel instruments"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.86
+        },
+        {
+          "entity_id": null,
+          "name": "Column of level/temperature instruments (pump area)",
+          "entity_type": "instrument_group",
+          "description": "Stack of instruments at pump area: TSH 745, TAH 745, LSH 745, LAH 745, LSCH 745, LSCL 745 (level/temperature/alarm sensors).",
+          "page_number": 2,
+          "bbox": {
+            "left": 0.22,
+            "top": 0.16,
+            "right": 0.36,
+            "bottom": 0.46,
+            "label": "Mid-left instruments"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "Insulated HOT spool (2\" HOT)",
+          "entity_type": "pipe_segment",
+          "description": "Short insulated spool labeled '1\" HOT' / '2\" DC-3202-A-1\"H-E-HT' connected to P-745 drainage to closed drain header.",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": null,
+          "name": "To closed drain header 10-0610",
+          "entity_type": "pipe_destination",
+          "description": "Closed drain header destination for P-745 drain line (tagged TO CLOSED DRAIN HEADER 10-0610).",
+          "page_number": 2,
+          "bbox": null,
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "R1",
+          "source_ref": "V-745",
+          "target_ref": "VRU-785",
+          "relation_type": "overhead_vapor_to",
+          "line_id": null,
+          "description": "V-745 overhead/vapor line connects to Vapor Recovery Unit VRU-785 via 4\"-PG-0532-A (arrow shown on drawing).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R2",
+          "source_ref": "V-745",
+          "target_ref": "E-745",
+          "relation_type": "reboiler_feed_to",
+          "line_id": null,
+          "description": "V-745 provides reboiler feed to Stabilizer Reboiler E-745 (line labeled 'REBOILER FEED TO STABILIZER REBOILER E-745').",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R3",
+          "source_ref": "E-745",
+          "target_ref": "V-745",
+          "relation_type": "reboiled_vapor_from",
+          "line_id": null,
+          "description": "Reboiled NGL vapor from Stabilizer Reboiler E-745 is shown on a return/connection line (labeled 'REBOILED NGL VAPOR FROM STABILIZER REBOILER E-745').",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R4",
+          "source_ref": "NGL_HEAT_RECOVERY_EXCHANGER",
+          "target_ref": "V-745",
+          "relation_type": "warm_feed_to",
+          "line_id": null,
+          "description": "Warm feed from NGL Heat Recovery Exchanger flows to V-745 (label 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED').",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.85
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "4\"-PG-0532-A",
+          "relation_type": "exports_to",
+          "line_id": null,
+          "description": "V-745 connects to 4\"-PG-0532-A leading to VRU-785.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.97
+        },
+        {
+          "relation_id": null,
+          "source_ref": "4\"-PG-0532-A",
+          "target_ref": "VRU-785",
+          "relation_type": "connects_to",
+          "line_id": null,
+          "description": "4\"-PG-0532-A goes to Vapor Recovery Unit VRU-785 (line label on drawing).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.98
+        },
+        {
+          "relation_id": null,
+          "source_ref": "4\"-PL-2243-B",
+          "target_ref": "V-745",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "4\"-PL-2243-B is labeled 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED' and feeds V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.98
+        },
+        {
+          "relation_id": null,
+          "source_ref": "NGL Heat Recovery Exchanger",
+          "target_ref": "4\"-PL-2243-B",
+          "relation_type": "supplies",
+          "line_id": null,
+          "description": "Heat exchanger supplies warm feed on 4\"-PL-2243-B to V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": null,
+          "source_ref": "4\"-PL-2242-B",
+          "target_ref": "V-745",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "4\"-PL-2242-B labeled 'FROM NGL COOL FEED' connects to V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.96
+        },
+        {
+          "relation_id": null,
+          "source_ref": "E-745",
+          "target_ref": "6\"-PG-0544-B-2\"H",
+          "relation_type": "exports_to",
+          "line_id": null,
+          "description": "E-745 supplies reboiled NGL vapor via 6\"-PG-0544-B-2\"H to V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "4\"-PL-2249-B-1 1/2\"H",
+          "relation_type": "sends_to",
+          "line_id": null,
+          "description": "V-745 sends reboiler feed via 4\"-PL-2249-B (reboiler feed to E-745).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "MV-745-22",
+          "relation_type": "has_valve_on_outlet",
+          "line_id": null,
+          "description": "Valve MV-745-22 located on a 4\" outlet at top-right of V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "MV-745-07",
+          "relation_type": "has_valve_on_outlet",
+          "line_id": null,
+          "description": "Valve MV-745-07 located on mid horizontal outlet from V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "PSV-745-151",
+          "relation_type": "has_safety_valve",
+          "line_id": null,
+          "description": "PSV-745-151 installed on V-745 (setpoint noted on drawing).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.96
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "PI-745-15",
+          "relation_type": "has_instrument",
+          "line_id": null,
+          "description": "Pressure indicator PI-745-15 on V-745 (top connection).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "PIT-745-15",
+          "relation_type": "has_instrument",
+          "line_id": null,
+          "description": "Pressure transmitter PIT-745-15 associated with PI-745-15 on V-745.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "V-745",
+          "target_ref": "5-valve manifold (top)",
+          "relation_type": "has_manifold",
+          "line_id": null,
+          "description": "Multiple 5-valve manifolds tap vessel at different elevations via 1/2\" lines for level/DP measurements (manifold valves MV-745-32/33/35/36).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "5-valve manifold (top)",
+          "target_ref": "MV-745-32",
+          "relation_type": "includes_valve",
+          "line_id": null,
+          "description": "Top manifold isolation valve MV-745-32 (1/2\"-D6S).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.88
+        },
+        {
+          "relation_id": null,
+          "source_ref": "P-745",
+          "target_ref": "MV-745-59",
+          "relation_type": "drain_line_valve",
+          "line_id": null,
+          "description": "P-745 drain line contains MV-745-59 (2\" D25) upstream toward closed drain header.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "P-745",
+          "target_ref": "MV-745-58",
+          "relation_type": "drain_line_valve",
+          "line_id": null,
+          "description": "P-745 drain/heat-traced line includes MV-745-58 (2\"-D5S) before header.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "P-745",
+          "target_ref": "HOA-745",
+          "relation_type": "has_local_control",
+          "line_id": null,
+          "description": "P-745 is provided with HOA selector 'HOA 745' local to the pump.",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": null,
+          "source_ref": "MV-745-08",
+          "target_ref": "4\"-PG-0532-A",
+          "relation_type": "installed_on",
+          "line_id": null,
+          "description": "MV-745-08 is shown on the mid-right line near the VRU-785 connection (1\"-D2S valve symbol adjacent to 4\"-PG-0532-A).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": null,
+          "source_ref": "TT-745-151",
+          "target_ref": "P-745",
+          "relation_type": "measures_temperature_of",
+          "line_id": null,
+          "description": "TT-745-151 measures temperature in the pump/top area (stacked with TW-745-151).",
+          "page_number": 2,
+          "attributes": {},
+          "confidence": 0.86
+        }
+      ],
+      "notes": [
+        "Extracted major components only: vessel V-745 (NGL stabilizer) and sump pump P-745 are present on this page. Reboiler E-745, VRU-785 and NGL heat recovery exchanger are referenced by piping arrows (off-page connections) and are included as referenced major components.",
+        "Instrument and small valve details were omitted per step instructions except where they provided pressure/safety info clearly tied to a major component (PSV set on V-745 included).",
+        "Extraction focused on page 2 (PID) \u2014 captured major anchors exactly as provided.",
+        "PSV setpoint (300 PSIG) read from drawing near PSV-745-151.",
+        "Several instrument manifold valves (MV-745-32, -33, -35, -36) were identified feeding DP/level instruments on V-745.",
+        "Left-sump pump P-745 drain piping includes insulated heat-traced spool and two isolation valves MV-745-59 and MV-745-58 to closed drain header 10-0610.",
+        "Merged extraction: step1 major components + step2 detailed components."
+      ]
+    },
+    {
+      "page_number": 3,
+      "entities": [
+        {
+          "entity_id": "e1",
+          "name": "AC-746",
+          "entity_type": "After Cooler (air cooler)",
+          "description": "After cooler unit with fan and motor (VFD noted as 'VFD BY OTHERS'). Primary tag visible as AC-746. Associated local control/instrumentation indicated (TIC/TIT/TW set) and a temperature control setpoint.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.12,
+            "top": 0.33,
+            "right": 0.55,
+            "bottom": 0.75,
+            "label": "AC-746 area"
+          },
+          "aliases": [
+            "After Cooler AC-746"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "temperature_setpoint",
+              "value": 100.0,
+              "unit": "\u00b0F",
+              "raw_text": "SET @ 100\u00b0 F.",
+              "confidence": 0.85,
+              "bbox": null
+            },
+            {
+              "kind": "instrument_tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "TIC 747 / TIT 747 / TW 747 (local temperature control/instrumentation)",
+              "confidence": 0.75,
+              "bbox": null
+            }
+          ],
+          "confidence": 1.0
+        },
+        {
+          "entity_id": "e2",
+          "name": "E-742",
+          "entity_type": "Heat Recovery Exchanger (exchanger)",
+          "description": "Heat recovery exchanger bank shown with twin horizontal shells/tubes. Primary tag visible as E-742. Insulation callout '2\" THK. HOT INSULATION' present on exchanger shells.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.62,
+            "top": 0.12,
+            "right": 0.95,
+            "bottom": 0.62,
+            "label": "E-742 area"
+          },
+          "aliases": [
+            "E-742 Heat Recovery Exchanger"
+          ],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "insulation_thickness",
+              "value": "2",
+              "unit": "inches",
+              "raw_text": "2\" THK. HOT INSULATION",
+              "confidence": 0.95,
+              "bbox": null
+            },
+            {
+              "kind": "temperature_setpoint",
+              "value": 90.0,
+              "unit": "\u00b0F",
+              "raw_text": "SET @ 90\u00b0 F.",
+              "confidence": 0.8,
+              "bbox": null
+            },
+            {
+              "kind": "instrument_tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "TI/TW 744, TI/TW/TT 742 (local temperature indicators/transmitters)",
+              "confidence": 0.75,
+              "bbox": null
+            }
+          ],
+          "confidence": 1.0
+        },
+        {
+          "entity_id": "P1",
+          "name": "4\"-PL-2242-B",
+          "entity_type": "pipe",
+          "description": "4\" process line to NGL stabilizer - labelled '4\"-PL-2242-B' (cool feed to top tray V-745).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.0,
+            "top": 0.06,
+            "right": 0.16,
+            "bottom": 0.45,
+            "label": "p3_detailed_pipes_measurements_z2_3"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "4",
+              "unit": "in",
+              "raw_text": "4\"",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "V_MV742_12",
+          "name": "MV-742-12",
+          "entity_type": "valve",
+          "description": "Valve on 4\"-PL-2242-B (isolation instrument/line valve). Symbol adjacent to PL-2242-B text.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.08,
+            "top": 0.12,
+            "right": 0.16,
+            "bottom": 0.22,
+            "label": "p3_detailed_pipes_measurements_z2_3"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-742-12",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "P2",
+          "name": "4\"-PL-2243-B",
+          "entity_type": "pipe",
+          "description": "4\" process line to NGL stabilizer (warm feed to mid tray V-745) - labelled '4\"-PL-2243-B'.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.0,
+            "top": 0.26,
+            "right": 0.16,
+            "bottom": 0.38,
+            "label": "p3_detailed_pipes_measurements_z2_3"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "4",
+              "unit": "in",
+              "raw_text": "4\"",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "V_MV742_09",
+          "name": "MV-742-09",
+          "entity_type": "valve",
+          "description": "Valve on 4\"-PL-2243-B (isolation/instrument valve).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.08,
+            "top": 0.28,
+            "right": 0.16,
+            "bottom": 0.34,
+            "label": "p3_detailed_pipes_measurements_z2_3"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-742-09",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "P3",
+          "name": "3\"-PL-2250-B-1\"H",
+          "entity_type": "pipe",
+          "description": "3\" process line labelled '3\"-PL-2250-B-1\"H' (from stabilizer reboiler E-745).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.0,
+            "top": 0.46,
+            "right": 0.16,
+            "bottom": 0.7,
+            "label": "p3_detailed_pipes_measurements_z2_3"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "3",
+              "unit": "in",
+              "raw_text": "3\"",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "V_MV735_11",
+          "name": "MV-735-11",
+          "entity_type": "valve",
+          "description": "Valve on upper header (3\"-B2R) feeding system; tag visible near top header line.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.02,
+            "right": 0.82,
+            "bottom": 0.08,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-735-11",
+              "confidence": 0.8,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.75
+        },
+        {
+          "entity_id": "V_MV735_12",
+          "name": "MV-735-12",
+          "entity_type": "valve",
+          "description": "Valve on upper header used as a bypass (tag MV-735-12 visible near top header).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.04,
+            "right": 0.82,
+            "bottom": 0.12,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-735-12",
+              "confidence": 0.8,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.75
+        },
+        {
+          "entity_id": "V_MV746_01",
+          "name": "MV-746-01",
+          "entity_type": "valve",
+          "description": "Isolation valve on AC-746 outlet vertical line (3\" nominal line / B2R style symbol shown).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.58,
+            "top": 0.18,
+            "right": 0.64,
+            "bottom": 0.34,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-746-01",
+              "confidence": 0.9,
+              "bbox": null
+            },
+            {
+              "kind": "nominal_size",
+              "value": "3",
+              "unit": "in",
+              "raw_text": "3\" (approx)",
+              "confidence": 0.7,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "V_MV746_02",
+          "name": "MV-746-02",
+          "entity_type": "valve",
+          "description": "Second valve on AC-746 outlet vertical run (downstream of MV-746-01).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.58,
+            "top": 0.3,
+            "right": 0.64,
+            "bottom": 0.44,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-746-02",
+              "confidence": 0.85,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "V_MV746_03",
+          "name": "MV-746-03",
+          "entity_type": "valve",
+          "description": "Small pilot/bleed valve on AC-746 side branch - labelled '1/2\"-D2Z' adjacent to MV-746-03.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.56,
+            "top": 0.34,
+            "right": 0.62,
+            "bottom": 0.46,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "0.5",
+              "unit": "in",
+              "raw_text": "1/2\"-D2Z",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "V_MV746_04",
+          "name": "MV-746-04",
+          "entity_type": "valve",
+          "description": "Downstream valve on AC-746 small side branch (3\"x2\" transition visible, valve tag MV-746-04 readable).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.5,
+            "top": 0.36,
+            "right": 0.58,
+            "bottom": 0.6,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-746-04",
+              "confidence": 0.85,
+              "bbox": null
+            },
+            {
+              "kind": "nominal_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "3\"x2\" (branch reducer)",
+              "confidence": 0.8,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "I_TY_747",
+          "name": "TY-747",
+          "entity_type": "instrument",
+          "description": "Temperature transmitter (TY-747) associated with AC-746. Located near AC-746 outlet/controls.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.54,
+            "top": 0.14,
+            "right": 0.6,
+            "bottom": 0.2,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "I_TIC_747",
+          "name": "TIC-747",
+          "entity_type": "instrument",
+          "description": "Temperature Indicating/Controller TIC-747 with setpoint annotation 'SET @ 100\u00b0F' (controls AC-746 temperature via VFD).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.36,
+            "top": 0.5,
+            "right": 0.46,
+            "bottom": 0.66,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "setpoint_temperature",
+              "value": 100.0,
+              "unit": "F",
+              "raw_text": "SET @ 100\u00b0 F.",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.97
+        },
+        {
+          "entity_id": "I_VT_746",
+          "name": "VT-746",
+          "entity_type": "instrument",
+          "description": "Instrument labelled VT-746 (located adjacent to AC-746 motor).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.42,
+            "top": 0.44,
+            "right": 0.48,
+            "bottom": 0.52,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.75
+        },
+        {
+          "entity_id": "E_VFD",
+          "name": "VFD",
+          "entity_type": "equipment",
+          "description": "Variable frequency drive (VFD) for AC-746 motor (label 'VFD BY OTHERS').",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.42,
+            "top": 0.52,
+            "right": 0.48,
+            "bottom": 0.62,
+            "label": "p3_detailed_pipes_measurements_z1_1"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "H_IA",
+          "name": "Instrument Air Header (1\"-IA-5048-M)",
+          "entity_type": "header",
+          "description": "Instrument air supply header labelled 'FROM INSTRUMENT AIR HEADER 1\"-IA-5048-M' (feeds MV-746-08).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.36,
+            "top": 0.68,
+            "right": 0.66,
+            "bottom": 0.86,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "V_MV746_08",
+          "name": "MV-746-08",
+          "entity_type": "valve",
+          "description": "Main 1\" instrument air isolating valve on the instrument air supply branch (label shows '1\"-D2S' at valve).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.4,
+            "top": 0.7,
+            "right": 0.5,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "1",
+              "unit": "in",
+              "raw_text": "1\"-D2S",
+              "confidence": 0.98,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "V_MV746_10",
+          "name": "MV-746-10",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve on the instrument air branch (tag MV-746-10). Shown feeding instrument TY-742 (label 'TO TY-742').",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.52,
+            "top": 0.64,
+            "right": 0.58,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": "0.5",
+              "unit": "in",
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "V_MV742_18",
+          "name": "MV-742-18",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-742-18). Nearby text indicates branch 'TO TY-747'.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.58,
+            "top": 0.62,
+            "right": 0.64,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.8
+        },
+        {
+          "entity_id": "V_MV735_15",
+          "name": "MV-735-15",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-735-15) on the instrument air manifold (branch likely 'TO TY-735').",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.66,
+            "top": 0.62,
+            "right": 0.72,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.85
+        },
+        {
+          "entity_id": "V_MV746_09",
+          "name": "MV-746-09",
+          "entity_type": "valve",
+          "description": "1/2\" instrument isolation valve (tag MV-746-09) on the instrument air manifold - shown as 'SPARE'.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.74,
+            "top": 0.62,
+            "right": 0.8,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "nominal_size",
+              "value": null,
+              "unit": null,
+              "raw_text": "1/2\"-D2S",
+              "confidence": 0.95,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.9
+        },
+        {
+          "entity_id": "V_MV735_16",
+          "name": "MV-735-16",
+          "entity_type": "valve",
+          "description": "Valve on far-right instrument branch with reducer/adaptor labelled '1\"x1/2\" 1/2\"-D2S' (tag MV-735-16).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.86,
+            "top": 0.64,
+            "right": 0.94,
+            "bottom": 0.78,
+            "label": "p3_detailed_pipes_measurements_z2_4"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [
+            {
+              "kind": "tag",
+              "value": null,
+              "unit": null,
+              "raw_text": "MV-735-16",
+              "confidence": 0.95,
+              "bbox": null
+            },
+            {
+              "kind": "note",
+              "value": null,
+              "unit": null,
+              "raw_text": "1\"x1/2\" adaptor to 1/2\" D2S",
+              "confidence": 0.9,
+              "bbox": null
+            }
+          ],
+          "confidence": 0.92
+        },
+        {
+          "entity_id": "I_TY_742",
+          "name": "TY-742",
+          "entity_type": "instrument",
+          "description": "Temperature transmitter / instrument cluster associated with E-742 (left-side cluster). Label 'TO TY-742' appears on one instrument manifold branch.",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.62,
+            "top": 0.26,
+            "right": 0.72,
+            "bottom": 0.4,
+            "label": "p3_detailed_pipes_measurements_z2_2"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.95
+        },
+        {
+          "entity_id": "I_TI_744",
+          "name": "TI-744",
+          "entity_type": "instrument",
+          "description": "Temperature indicator/instrument TI-744 located on top of E-742 (top instrument pair TI/TW-744 visible).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.7,
+            "top": 0.04,
+            "right": 0.78,
+            "bottom": 0.12,
+            "label": "p3_detailed_pipes_measurements_z2_2"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.92
+        },
+        {
+          "entity_id": "I_TW_744",
+          "name": "TW-744",
+          "entity_type": "instrument",
+          "description": "Temperature well/thermowell TW-744 (paired with TI-744 at top of E-742).",
+          "page_number": 3,
+          "bbox": {
+            "left": 0.7,
+            "top": 0.08,
+            "right": 0.78,
+            "bottom": 0.16,
+            "label": "p3_detailed_pipes_measurements_z2_2"
+          },
+          "aliases": [],
+          "attributes": {},
+          "measurements": [],
+          "confidence": 0.9
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "r1",
+          "source_ref": "e1",
+          "target_ref": "e2",
+          "relation_type": "process_flow_to",
+          "line_id": null,
+          "description": "Process flow from AC-746 (after cooler) outlet routed toward E-742 (heat recovery exchanger) as indicated by piping/arrows between the two equipment clusters.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.72
+        },
+        {
+          "relation_id": "R1",
+          "source_ref": "V_MV742_12",
+          "target_ref": "P1",
+          "relation_type": "installed_on",
+          "line_id": null,
+          "description": "MV-742-12 is installed on pipe 4\"-PL-2242-B",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R2",
+          "source_ref": "V_MV742_09",
+          "target_ref": "P2",
+          "relation_type": "installed_on",
+          "line_id": null,
+          "description": "MV-742-09 is installed on pipe 4\"-PL-2243-B",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R3",
+          "source_ref": "V_MV746_01",
+          "target_ref": "E1",
+          "relation_type": "valve_on_outlet_of",
+          "line_id": null,
+          "description": "MV-746-01 is the primary isolation valve on the AC-746 outlet vertical run.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R4",
+          "source_ref": "V_MV746_02",
+          "target_ref": "E1",
+          "relation_type": "valve_on_outlet_of",
+          "line_id": null,
+          "description": "MV-746-02 is on the AC-746 outlet vertical run downstream of MV-746-01.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.85
+        },
+        {
+          "relation_id": "R5",
+          "source_ref": "V_MV746_03",
+          "target_ref": "E1",
+          "relation_type": "control_bleed_on",
+          "line_id": null,
+          "description": "MV-746-03 is a small 1/2\" bleed/isolation valve on a side branch of AC-746.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R6",
+          "source_ref": "V_MV746_04",
+          "target_ref": "E1",
+          "relation_type": "valve_on_sidebranch_of",
+          "line_id": null,
+          "description": "MV-746-04 sits on a 3\"x2\" side branch from AC-746.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.85
+        },
+        {
+          "relation_id": "R7",
+          "source_ref": "I_TY_747",
+          "target_ref": "E1",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "TY-747 temperature transmitter is instrumented on AC-746 (measures cooler temperature).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R8",
+          "source_ref": "I_TIC_747",
+          "target_ref": "E1",
+          "relation_type": "controls",
+          "line_id": null,
+          "description": "TIC-747 (set @100\u00b0F) controls AC-746 temperature (controller output to VFD).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.97
+        },
+        {
+          "relation_id": "R9",
+          "source_ref": "H_IA",
+          "target_ref": "V_MV746_08",
+          "relation_type": "supplies",
+          "line_id": null,
+          "description": "Instrument Air Header (1\"-IA-5048-M) supplies MV-746-08 (1\"-D2S)",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R10",
+          "source_ref": "V_MV746_08",
+          "target_ref": "V_MV746_10",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-746-10 (to TY-742).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R11",
+          "source_ref": "V_MV746_08",
+          "target_ref": "V_MV742_18",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-742-18 (labelled 'TO TY-747').",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R12",
+          "source_ref": "V_MV746_08",
+          "target_ref": "V_MV735_15",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-735-15 (labelled 'TO TY-735').",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.9
+        },
+        {
+          "relation_id": "R13",
+          "source_ref": "V_MV746_08",
+          "target_ref": "V_MV746_09",
+          "relation_type": "feeds",
+          "line_id": null,
+          "description": "MV-746-08 (1\" supply) feeds the spare instrument valve MV-746-09.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R14",
+          "source_ref": "V_MV735_16",
+          "target_ref": "V_MV746_08",
+          "relation_type": "downstream_of",
+          "line_id": null,
+          "description": "MV-735-16 is located downstream/right of the instrument manifold fed by MV-746-08 (adaptor 1\"x1/2\" then 1/2\"-D2S).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": "R15",
+          "source_ref": "V_MV746_10",
+          "target_ref": "I_TY_742",
+          "relation_type": "supplies_air_to",
+          "line_id": null,
+          "description": "Instrument air line: MV-746-10 supplies instrument TY-742 (label 'TO TY-742').",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R16",
+          "source_ref": "E2",
+          "target_ref": "I_TY_742",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "TY-742 is an instrument associated with E-742 (measures exchanger parameter).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.95
+        },
+        {
+          "relation_id": "R17",
+          "source_ref": "E2",
+          "target_ref": "I_TI_744",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "TI-744 (paired with TW-744) is instrumented on the E-742 unit (top-of-unit instruments).",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.92
+        },
+        {
+          "relation_id": "R18",
+          "source_ref": "E2",
+          "target_ref": "I_TW_744",
+          "relation_type": "instrument_on",
+          "line_id": null,
+          "description": "TW-744 thermowell/temperature instrument paired with TI-744 on E-742.",
+          "page_number": 3,
+          "attributes": {},
+          "confidence": 0.9
+        }
+      ],
+      "notes": [
+        "Extraction focused on major process components (AC-746, E-742) and clearly associated text (setpoints and insulation). Smaller valves/instruments were not exhaustively captured; only high-level instrumentation text clearly tied to the major components was recorded.",
+        "Temperature control note: TIC-747 has setpoint annotated 'SET @ 100\u00b0 F' (controller for AC-746).",
+        "Instrument air manifold: 1\" IA supply (IA-5048-M) -> MV-746-08 -> multiple 1/2\" branches (MV-746-10, MV-742-18, MV-735-15, MV-746-09) feeding TY/TI instruments (labels 'TO TY-742', 'TO TY-747', 'TO TY-735' visible).",
+        "Left-side process lines: 4\"-PL-2242-B and 4\"-PL-2243-B feed to NGL Stabilizer (top and mid tray respectively) and each has a 1\" valve (MV-742-12, MV-742-09) on the drawing.",
+        "AC-746 outlet has a vertical 3\" line with valves MV-746-01 and MV-746-02; a small 1/2\" pilot/bleed valve MV-746-03 and side branch valve MV-746-04.",
+        "Merged extraction: step1 major components + step2 detailed components."
+      ]
+    }
+  ]
+}

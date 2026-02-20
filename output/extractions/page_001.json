@@ -1,0 +1,986 @@
+{
+  "page_number": 1,
+  "entities": [
+    {
+      "entity_id": "E1",
+      "name": "F-715A",
+      "entity_type": "Particulate Filter Separator (vessel)",
+      "description": "Left unit of the F-715 A & B particulate filter separators (parallel pair). Identified tag F-715A on the vessel shell.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.3,
+        "top": 0.33,
+        "right": 0.42,
+        "bottom": 0.6,
+        "label": "F-715A_area"
+      },
+      "aliases": [
+        "Filter F-715A"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "size",
+          "value": "18\" O.D. x 42.5\" T/T",
+          "unit": null,
+          "raw_text": "18\" O.D. x 42.5\" T/T",
+          "confidence": 0.95,
+          "bbox": null
+        },
+        {
+          "kind": "operating_pressure",
+          "value": 230.0,
+          "unit": "PSIG",
+          "raw_text": "OPERATING: 230 PSIG",
+          "confidence": 0.95,
+          "bbox": null
+        },
+        {
+          "kind": "design_pressure",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "DESIGN: 275 PSIG @ 100F",
+          "confidence": 0.95,
+          "bbox": null
+        },
+        {
+          "kind": "design_temperature",
+          "value": 100.0,
+          "unit": "F",
+          "raw_text": "DESIGN: 275 PSIG @ 100F",
+          "confidence": 0.9,
+          "bbox": null
+        },
+        {
+          "kind": "mdmt",
+          "value": "-20 F @ 275 PSIG",
+          "unit": null,
+          "raw_text": "MDMT: -20F @ 275 PSIG",
+          "confidence": 0.9,
+          "bbox": null
+        },
+        {
+          "kind": "design_capacity",
+          "value": "180 GPM @ 2.25 PSID",
+          "unit": null,
+          "raw_text": "DESIGN CAP: 180 GPM @ 2.25 PSID CLEAN",
+          "confidence": 0.9,
+          "bbox": null
+        },
+        {
+          "kind": "relief_setpoint",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "PSV set @ 275 PSIG (PSV 715A)",
+          "confidence": 0.92,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "entity_id": "E2",
+      "name": "F-715B",
+      "entity_type": "Particulate Filter Separator (vessel)",
+      "description": "Right unit of the F-715 A & B particulate filter separators (parallel pair). Identified tag F-715B on the vessel shell.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.58,
+        "top": 0.33,
+        "right": 0.7,
+        "bottom": 0.6,
+        "label": "F-715B_area"
+      },
+      "aliases": [
+        "Filter F-715B"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "size",
+          "value": "18\" O.D. x 42.5\" T/T",
+          "unit": null,
+          "raw_text": "18\" O.D. x 42.5\" T/T",
+          "confidence": 0.92,
+          "bbox": null
+        },
+        {
+          "kind": "operating_pressure",
+          "value": 230.0,
+          "unit": "PSIG",
+          "raw_text": "OPERATING: 230 PSIG",
+          "confidence": 0.92,
+          "bbox": null
+        },
+        {
+          "kind": "design_pressure",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "DESIGN: 275 PSIG @ 100F",
+          "confidence": 0.92,
+          "bbox": null
+        },
+        {
+          "kind": "design_temperature",
+          "value": 100.0,
+          "unit": "F",
+          "raw_text": "DESIGN: 275 PSIG @ 100F",
+          "confidence": 0.88,
+          "bbox": null
+        },
+        {
+          "kind": "mdmt",
+          "value": "-20 F @ 275 PSIG",
+          "unit": null,
+          "raw_text": "MDMT: -20F @ 275 PSIG",
+          "confidence": 0.88,
+          "bbox": null
+        },
+        {
+          "kind": "design_capacity",
+          "value": "180 GPM @ 2.25 PSID",
+          "unit": null,
+          "raw_text": "DESIGN CAP: 180 GPM @ 2.25 PSID CLEAN",
+          "confidence": 0.88,
+          "bbox": null
+        },
+        {
+          "kind": "relief_setpoint",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "PSV set @ 275 PSIG (PSV 715B)",
+          "confidence": 0.92,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "entity_id": "E3",
+      "name": "V-710",
+      "entity_type": "Slug catcher (external vessel)",
+      "description": "Slug catcher shown as source feeding the F-715A/B inlet (label on left edge 'FROM SLUG CATCHER V-710').",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.02,
+        "top": 0.28,
+        "right": 0.3,
+        "bottom": 0.6,
+        "label": "left_connection_area"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "E4",
+      "name": "V-720 (Surge drum)",
+      "entity_type": "Surge drum (vessel)",
+      "description": "Surge drum referenced on right-side piping header ('TO SURGE DRUM V-720'). Appears to be a destination for the filter outlet header.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.7,
+        "top": 0.16,
+        "right": 0.99,
+        "bottom": 0.58,
+        "label": "right_connection_area"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "E5",
+      "name": "V-005 (Closed drain tank)",
+      "entity_type": "Closed drain tank (vessel)",
+      "description": "Closed drain tank shown as a destination on the top header ('TO CLOSED DRAIN TANK V-005').",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.7,
+        "top": 0.16,
+        "right": 0.99,
+        "bottom": 0.58,
+        "label": "right_connection_area"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "E6",
+      "name": "V-73D (Condensate 2-phase separator)",
+      "entity_type": "2-phase separator (vessel)",
+      "description": "Label on right-side branch reads 'TO CONDENSATE 2 PHASE SEPARATOR V-73D' (OCR uncertain on the digit/letter; likely V-730 or V-73D). Marked as a condensate separator destination from the header.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.7,
+        "top": 0.16,
+        "right": 0.99,
+        "bottom": 0.58,
+        "label": "right_connection_area"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.7
+    },
+    {
+      "entity_id": "PSV-715A",
+      "name": "PSV 715A",
+      "entity_type": "pressure_safety_valve",
+      "description": "Relief valve on F-715A. Setpoint noted on drawing.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.33,
+        "top": 0.28,
+        "right": 0.425,
+        "bottom": 0.36,
+        "label": null
+      },
+      "aliases": [
+        "PSV 715 A"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pressure_setpoint",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "SET @ 275 PSIG",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "PSV-715B",
+      "name": "PSV 715B",
+      "entity_type": "pressure_safety_valve",
+      "description": "Relief valve on F-715B. Setpoint noted on drawing.",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.63,
+        "top": 0.28,
+        "right": 0.72,
+        "bottom": 0.36,
+        "label": null
+      },
+      "aliases": [
+        "PSV 715 B"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pressure_setpoint",
+          "value": 275.0,
+          "unit": "PSIG",
+          "raw_text": "SET @ 275 PSIG",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "MV-715-10A",
+      "name": "MV-715-10A",
+      "entity_type": "valve",
+      "description": "1\" relief discharge valve on PSV 715A relieving to common header",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.42,
+        "top": 0.26,
+        "right": 0.48,
+        "bottom": 0.34,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1\"-D2S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "MV-715-10B",
+      "name": "MV-715-10B",
+      "entity_type": "valve",
+      "description": "1\" relief discharge valve on PSV 715B relieving to common header",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.68,
+        "top": 0.26,
+        "right": 0.74,
+        "bottom": 0.34,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1\"-D2S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "PI-715A",
+      "name": "PI 715A",
+      "entity_type": "pressure_indicator",
+      "description": "Local pressure indicator for F-715A (side tap)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.47,
+        "top": 0.46,
+        "right": 0.53,
+        "bottom": 0.54,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "instrument_tap_line",
+          "value": null,
+          "unit": null,
+          "raw_text": "1\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "PI-715B",
+      "name": "PI 715B",
+      "entity_type": "pressure_indicator",
+      "description": "Local pressure indicator for F-715B (side tap)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.61,
+        "top": 0.44,
+        "right": 0.67,
+        "bottom": 0.52,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "instrument_tap_line",
+          "value": null,
+          "unit": null,
+          "raw_text": "1\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "DPI-715A",
+      "name": "DPI 715A",
+      "entity_type": "differential_pressure_indicator",
+      "description": "Differential pressure indicator connected to F-715A (left)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.28,
+        "top": 0.48,
+        "right": 0.335,
+        "bottom": 0.575,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "instrument_tap_line",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.8,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "entity_id": "DPI-715B",
+      "name": "DPI 715B",
+      "entity_type": "differential_pressure_indicator",
+      "description": "Differential pressure indicator connected to F-715B (right)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.58,
+        "right": 0.72,
+        "bottom": 0.7,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "instrument_tap_line",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.8,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "entity_id": "MV-715-12A",
+      "name": "MV-715-12A",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve on DPI/side tap to F-715A",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.33,
+        "top": 0.54,
+        "right": 0.39,
+        "bottom": 0.6,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "MV-715-13A",
+      "name": "MV-715-13A",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve on lower DPI tap on F-715A",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.32,
+        "top": 0.62,
+        "right": 0.38,
+        "bottom": 0.7,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "MV-715-12B",
+      "name": "MV-715-12B",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve on DPI/side tap to F-715B",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.58,
+        "right": 0.72,
+        "bottom": 0.64,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "MV-715-13B",
+      "name": "MV-715-13B",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve on lower DPI tap on F-715B",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.66,
+        "right": 0.72,
+        "bottom": 0.72,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "MV-715-02A",
+      "name": "MV-715-02A",
+      "entity_type": "valve",
+      "description": "6\" outlet isolation valve on F-715A connecting to common header (6\"-D2R)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.515,
+        "top": 0.45,
+        "right": 0.575,
+        "bottom": 0.52,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"-D2R",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "MV-715-01",
+      "name": "MV-715-01",
+      "entity_type": "valve",
+      "description": "6\" outlet isolation valve on F-715B connecting to common header (6\"-D2R)",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.78,
+        "top": 0.42,
+        "right": 0.82,
+        "bottom": 0.48,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"-D2R",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "interconnect_spool",
+      "name": "Interconnect (A-B)",
+      "entity_type": "pipe_spool",
+      "description": "6\" crossover between F-715A and F-715B with isolation valves on each side (cloud label shown).",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.44,
+        "top": 0.32,
+        "right": 0.64,
+        "bottom": 0.44,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.88
+    },
+    {
+      "entity_id": "MV-715-06A",
+      "name": "MV-715-06A",
+      "entity_type": "valve",
+      "description": "Isolation valve on the interconnect side near F-715A",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.49,
+        "top": 0.32,
+        "right": 0.52,
+        "bottom": 0.36,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "MV-715-06B",
+      "name": "MV-715-06B",
+      "entity_type": "valve",
+      "description": "Isolation valve on the interconnect side near F-715B",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.59,
+        "top": 0.32,
+        "right": 0.62,
+        "bottom": 0.36,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "header_main_right",
+      "name": "Filter common header (to exports)",
+      "entity_type": "pipe",
+      "description": "Common outlet header collecting from F-715A/B and routing to export lines (surge drum, closed drain tank, condensate separator).",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.62,
+        "top": 0.05,
+        "right": 0.99,
+        "bottom": 0.38,
+        "label": null
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "pipe_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "6\"-PL-2240-D (to V-720)",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R1",
+      "source_ref": "E3",
+      "target_ref": "E1",
+      "relation_type": "feeds_to",
+      "line_id": null,
+      "description": "Flow from slug catcher V-710 into F-715A (inlet header splits to both filters).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": "R2",
+      "source_ref": "E3",
+      "target_ref": "E2",
+      "relation_type": "feeds_to",
+      "line_id": null,
+      "description": "Flow from slug catcher V-710 into F-715B (inlet header splits to both filters).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": "R3",
+      "source_ref": "E1",
+      "target_ref": "E4",
+      "relation_type": "discharges_to",
+      "line_id": null,
+      "description": "Outlet/header from F-715A connects to surge drum V-720 (6\" line).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R4",
+      "source_ref": "E2",
+      "target_ref": "E4",
+      "relation_type": "discharges_to",
+      "line_id": null,
+      "description": "Outlet/header from F-715B connects to surge drum V-720 (6\" line).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R5",
+      "source_ref": "E1",
+      "target_ref": "E5",
+      "relation_type": "branches_to",
+      "line_id": null,
+      "description": "Top header from filters has branch to closed drain tank V-005 (visible on right-side header).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": "R6",
+      "source_ref": "E1",
+      "target_ref": "E6",
+      "relation_type": "branches_to",
+      "line_id": null,
+      "description": "Filter/header has a branch labeled 'TO CONDENSATE 2 PHASE SEPARATOR V-73D' (destination uncertain, transcribed as V-73D).",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.75
+    },
+    {
+      "relation_id": "r1",
+      "source_ref": "PSV-715A",
+      "target_ref": "F-715A",
+      "relation_type": "mounted_on",
+      "line_id": null,
+      "description": "PSV 715A mounted on F-715A relief nozzle",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r2",
+      "source_ref": "PSV-715B",
+      "target_ref": "F-715B",
+      "relation_type": "mounted_on",
+      "line_id": null,
+      "description": "PSV 715B mounted on F-715B relief nozzle",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r3",
+      "source_ref": "MV-715-10A",
+      "target_ref": "PSV-715A",
+      "relation_type": "protects_from",
+      "line_id": null,
+      "description": "Relief discharge valve immediately downstream of PSV 715A, 1\"-D2S",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r4",
+      "source_ref": "MV-715-10B",
+      "target_ref": "PSV-715B",
+      "relation_type": "protects_from",
+      "line_id": null,
+      "description": "Relief discharge valve immediately downstream of PSV 715B, 1\"-D2S",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r5",
+      "source_ref": "MV-715-02A",
+      "target_ref": "F-715A",
+      "relation_type": "outlet_isolation",
+      "line_id": null,
+      "description": "6\" outlet isolation valve on F-715A to common header",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r6",
+      "source_ref": "MV-715-01",
+      "target_ref": "F-715B",
+      "relation_type": "outlet_isolation",
+      "line_id": null,
+      "description": "6\" outlet isolation valve on F-715B to common header",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r7",
+      "source_ref": "interconnect_spool",
+      "target_ref": "F-715A",
+      "relation_type": "connected_to",
+      "line_id": null,
+      "description": "Interconnect spool between A and B connects to F-715A",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": "r8",
+      "source_ref": "interconnect_spool",
+      "target_ref": "F-715B",
+      "relation_type": "connected_to",
+      "line_id": null,
+      "description": "Interconnect spool between A and B connects to F-715B",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": "r9",
+      "source_ref": "PI-715A",
+      "target_ref": "F-715A",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "Pressure indicator PI 715A taps vessel side",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r10",
+      "source_ref": "PI-715B",
+      "target_ref": "F-715B",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "Pressure indicator PI 715B taps vessel side",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r11",
+      "source_ref": "DPI-715A",
+      "target_ref": "F-715A",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "Differential pressure indicator DPI 715A connected to F-715A (inlet/outlet DP)",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": "r12",
+      "source_ref": "DPI-715B",
+      "target_ref": "F-715B",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "Differential pressure indicator DPI 715B connected to F-715B (inlet/outlet DP)",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": "r13",
+      "source_ref": "header_main_right",
+      "target_ref": "F-715A",
+      "relation_type": "collects_from",
+      "line_id": null,
+      "description": "Common header collects flow from F-715A via MV-715-02A (6\"-D2R)",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r14",
+      "source_ref": "header_main_right",
+      "target_ref": "F-715B",
+      "relation_type": "collects_from",
+      "line_id": null,
+      "description": "Common header collects flow from F-715B via MV-715-01 (6\"-D2R)",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "r15",
+      "source_ref": "header_main_right",
+      "target_ref": "V-005",
+      "relation_type": "routes_to",
+      "line_id": null,
+      "description": "Header contains branch labeled '1\"-RV-6119-A TO CLOSED DRAIN TANK V-005' (closed drain export) with MV-715-11 on header",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r16",
+      "source_ref": "header_main_right",
+      "target_ref": "V-720",
+      "relation_type": "routes_to",
+      "line_id": null,
+      "description": "Header contains export to SURGE DRUM V-720 via '6\"-PL-2240-D' and a valve MV-720-01 shown on the export line",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "r17",
+      "source_ref": "header_main_right",
+      "target_ref": "V-73D",
+      "relation_type": "routes_to",
+      "line_id": null,
+      "description": "Header contains export to CONDENSATE 2-PHASE SEPARATOR V-73D (label visible on drawing export lines at top-right)",
+      "page_number": 1,
+      "attributes": {},
+      "confidence": 0.85
+    }
+  ],
+  "notes": [
+    "Extracted the two primary vessels F-715A and F-715B and their key design/operating parameters from the title block: size 18\" O.D. x 42.5\" T/T; Operating 230 PSIG; Design 275 PSIG @ 100F; MDMT -20F @ 275 PSIG; Design capacity 180 GPM @ 2.25 PSID clean. PSV relief setpoints near each vessel read 275 PSIG.",
+    "High-level connections captured: inlet from slug catcher V-710; outlets/branches to surge drum V-720, closed drain tank V-005, and a condensate 2-phase separator labeled 'V-73D' (OCR uncertain \u2014 likely V-730 or V-73D).",
+    "Confidence reduced where text was small/ambiguous (noted above). No small valves/instruments were extracted beyond relief setpoints which are clearly tied to the vessels.",
+    "PSV setpoints explicitly shown: PSV 715A and PSV 715B set @ 275 PSIG (extracted from nearby text).",
+    "Instrument tap sizes: instrument lines shown as 1/2\"-D2S and 1\"-D2S for DPI/PI connections; relief lines are 1\"-D2S.",
+    "Main outlet lines from vessels are 6\" nominal (6\"-D2R) to a common header; header exports to V-005 (closed drain), V-720 (surge drum), and V-73D (condensate 2-phase separator).",
+    "Where valve tags or small text were partially obscured, confidence is reduced and the tag/size was transcribed conservatively as shown on drawing.",
+    "Merged extraction: step1 major components + step2 detailed components."
+  ]
+}

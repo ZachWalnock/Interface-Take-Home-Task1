@@ -1,0 +1,90 @@
+SOP vs KG Discrepancy Dashboard
+========================================================================
+Generated at: 2026-02-19T18:27:53.417923+00:00
+SOP file: data/sop/sop.docx
+Doc ID: pid_demo
+Checked limits: 5
+Total discrepancies: 6
+
+Status Summary
+------------------------------------------------------------------------
+Pressure  -> match=2 mismatch=0 missing=3
+Temperature -> match=2 mismatch=3 missing=0
+Discrepancy types:
+  - pressure_mismatch: 3
+  - temperature_mismatch: 3
+
+Per-Item Evaluation
+------------------------------------------------------------------------
+[1] F-715 A and B Particulate Filters
+  Resolved entity: F-715A (E1)
+  Pressure: match | expected=275 | observed=[OPERATING: 230 PSIG; DESIGN: 275 PSIG]
+  Temperature: match | expected=100 | observed=[DESIGN: 275 PSIG @ 100F]
+  Tool calls used: 1
+  Notes: [The entity F-715A matches the SOP item F-715 A and B Particulate Filters (Left unit).; Design pressure is 275 PSIG and design temperature is 100 F, which matches the expected SOP limits exactly.; ... (+2 more)]
+
+[2] V-745 Stabilizer Tower
+  Resolved entity: V-745 (V-745)
+  Pressure: match | expected=300 | observed=[M.W.P.: 300 PSIG; PSV 745-151 SET AT 300 PSIG]
+  Temperature: match | expected=375 | observed=[M.W.P.: 300 PSIG @ 375°F]
+  Tool calls used: 1
+  Notes: [V-745 is an NGL Stabilizer vessel, vertical stabilizer tower with internal trays and multiple nozzles.; Maximum working pressure (design rating) is 300 PSIG at 375°F.; ... (+1 more)]
+
+[3] E-742 Exchanger (Shell)
+  Resolved entity: E-742 Exchanger (Shell) (e2)
+  Pressure: missing | expected=300 | observed=[]
+  Temperature: mismatch | expected=375 | observed=[90° F]
+  Tool calls used: 4
+  Notes: [No direct pressure measurements found for E-742 in knowledge graph.; Observed temperature setpoint measurement is 90° F from the insulation callout context, which is much lower than SOP expected temperature of 375 F.; ... (+1 more)]
+
+[4] E-742 Exchanger (Tube)
+  Resolved entity: E-742 (e2)
+  Pressure: missing | expected=300 | observed=[]
+  Temperature: mismatch | expected=250 | observed=[90 °F (temperature setpoint from insulation callout '2" THK. HOT INSULATION SET @ 90° F.')]
+  Tool calls used: 3
+  Notes: [No direct pressure or operating temperature limits found in the KG for E-742 exchanger; only an insulation temperature setpoint of 90 °F indicated on the exchanger shell insulation. SOP expected temperature (250 °F) is significantly higher than the insulation setpoint.]
+
+[5] AC-746 After Cooler
+  Resolved entity: AC-746 (e1)
+  Pressure: missing | expected=350 | observed=[]
+  Temperature: mismatch | expected=-20 to 400 | observed=[SET @ 100° F]
+  Tool calls used: 6
+  Notes: [Entity AC-746 identified as After Cooler matching SOP item name.; No direct pressure measurement or limits observed in knowledge graph for AC-746.; ... (+2 more)]
+
+Discrepancy Details
+------------------------------------------------------------------------
+[1] pressure_mismatch | SOP: E-742 Exchanger (Shell)
+  Matched entity: E-742 Exchanger (Shell) (e2)
+  Expected pressure: 300
+  Observed pressure: []
+  Notes: [No direct pressure measurements found for E-742 in knowledge graph.; Observed temperature setpoint measurement is 90° F from the insulation callout context, which is much lower than SOP expected temperature of 375 F.; ... (+1 more)]
+
+[2] temperature_mismatch | SOP: E-742 Exchanger (Shell)
+  Matched entity: E-742 Exchanger (Shell) (e2)
+  Expected temperature: 375
+  Observed temperature: [90° F]
+  Notes: [No direct pressure measurements found for E-742 in knowledge graph.; Observed temperature setpoint measurement is 90° F from the insulation callout context, which is much lower than SOP expected temperature of 375 F.; ... (+1 more)]
+
+[3] pressure_mismatch | SOP: E-742 Exchanger (Tube)
+  Matched entity: E-742 (e2)
+  Expected pressure: 300
+  Observed pressure: []
+  Notes: [No direct pressure or operating temperature limits found in the KG for E-742 exchanger; only an insulation temperature setpoint of 90 °F indicated on the exchanger shell insulation. SOP expected temperature (250 °F) is significantly higher than the insulation setpoint.]
+
+[4] temperature_mismatch | SOP: E-742 Exchanger (Tube)
+  Matched entity: E-742 (e2)
+  Expected temperature: 250
+  Observed temperature: [90 °F (temperature setpoint from insulation callout '2" THK. HOT INSULATION SET @ 90° F.')]
+  Notes: [No direct pressure or operating temperature limits found in the KG for E-742 exchanger; only an insulation temperature setpoint of 90 °F indicated on the exchanger shell insulation. SOP expected temperature (250 °F) is significantly higher than the insulation setpoint.]
+
+[5] pressure_mismatch | SOP: AC-746 After Cooler
+  Matched entity: AC-746 (e1)
+  Expected pressure: 350
+  Observed pressure: []
+  Notes: [Entity AC-746 identified as After Cooler matching SOP item name.; No direct pressure measurement or limits observed in knowledge graph for AC-746.; ... (+2 more)]
+
+[6] temperature_mismatch | SOP: AC-746 After Cooler
+  Matched entity: AC-746 (e1)
+  Expected temperature: -20 to 400
+  Observed temperature: [SET @ 100° F]
+  Notes: [Entity AC-746 identified as After Cooler matching SOP item name.; No direct pressure measurement or limits observed in knowledge graph for AC-746.; ... (+2 more)]

@@ -1,0 +1,8 @@
+*.env
+*.pdf
+*.docx
+*.png
+*.faiss\
+**/.venv/*
+**/node_modules/*
+**/.next/*

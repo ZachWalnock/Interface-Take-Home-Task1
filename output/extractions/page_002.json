@@ -1,0 +1,842 @@
+{
+  "page_number": 2,
+  "entities": [
+    {
+      "entity_id": "V-745",
+      "name": "V-745",
+      "entity_type": "vessel",
+      "description": "NGL Stabilizer (vertical stabilizer tower). Shown with internal trays/mesh pad and multiple nozzles.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.36,
+        "top": 0.06,
+        "right": 0.7,
+        "bottom": 0.78,
+        "label": "stabilizer_vessel"
+      },
+      "aliases": [
+        "NGL STABILIZER"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "design_rating",
+          "value": "300",
+          "unit": "PSIG @ \u00b0F",
+          "raw_text": "M.W.P.: 300 PSIG @ 375\u00b0F",
+          "confidence": 0.9,
+          "bbox": null
+        },
+        {
+          "kind": "safety_relief_set",
+          "value": "300",
+          "unit": "PSIG",
+          "raw_text": "PSV 745-151 SET AT 300 PSIG",
+          "confidence": 0.9,
+          "bbox": {
+            "left": 0.46,
+            "top": 0.08,
+            "right": 0.66,
+            "bottom": 0.2,
+            "label": "psv_top_right"
+          }
+        }
+      ],
+      "confidence": 0.99
+    },
+    {
+      "entity_id": "P-745",
+      "name": "P-745",
+      "entity_type": "pump",
+      "description": "Submersible sump pump (pad/sump mounted). Shown with motor and HOA control.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.02,
+        "top": 0.64,
+        "right": 0.34,
+        "bottom": 0.94,
+        "label": "sump_pump"
+      },
+      "aliases": [
+        "SUBMERSIBLE SUMP PUMP"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "control",
+          "value": null,
+          "unit": null,
+          "raw_text": "HOA 745",
+          "confidence": 0.9,
+          "bbox": {
+            "left": 0.12,
+            "top": 0.74,
+            "right": 0.22,
+            "bottom": 0.84,
+            "label": "hoa_745"
+          }
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "entity_id": "E-745",
+      "name": "E-745",
+      "entity_type": "reboiler",
+      "description": "Stabilizer reboiler (E-745) \u2014 referenced on piping lines as stabilizer reboiler and reboiled vapor source/sink. Reboiler is off-page but clearly connected by feed/vapor lines.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.74,
+        "top": 0.6,
+        "right": 0.98,
+        "bottom": 0.78,
+        "label": "reboiler_area"
+      },
+      "aliases": [
+        "STABILIZER REBOILER E-745"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "note",
+          "value": null,
+          "unit": null,
+          "raw_text": "Reboiler feed and reboiled vapor lines shown (feed to E-745 and reboiled vapor from E-745)",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "VRU-785",
+      "name": "VRU-785",
+      "entity_type": "unit",
+      "description": "Vapor Recovery Unit (referenced as destination for a V-745 overhead/vapor line). Off-page reference (connection shown by pipeline arrow).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.74,
+        "top": 0.26,
+        "right": 0.98,
+        "bottom": 0.46,
+        "label": "vru_connection"
+      },
+      "aliases": [
+        "VAPOR RECOVERY UNIT VRU-785"
+      ],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.97
+    },
+    {
+      "entity_id": "NGL_HEAT_RECOVERY_EXCHANGER",
+      "name": "NGL Heat Recovery Exchanger",
+      "entity_type": "heat_exchanger",
+      "description": "NGL heat recovery exchanger (warm feed referenced into piping feeding the stabilizer). Off-page but shown as 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED'.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.74,
+        "top": 0.42,
+        "right": 0.98,
+        "bottom": 0.64,
+        "label": "heat_recovery_feed"
+      },
+      "aliases": [
+        "NGL Heat Recovery Exchanger (heat_exchanger)"
+      ],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": null,
+      "name": "4\"-PG-0532-A",
+      "entity_type": "pipe_line",
+      "description": "4\" process gas line to Vapor Recovery Unit VRU-785. Label: TO VAPOR RECOVERY UNIT VRU-785.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.72,
+        "top": 0.24,
+        "right": 0.98,
+        "bottom": 0.56,
+        "label": "Right-side lines to VRU and E-745 with line IDs and valves"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "size",
+          "value": "4",
+          "unit": "inch",
+          "raw_text": "4\"",
+          "confidence": 0.99,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "entity_id": null,
+      "name": "4\"-PL-2243-B",
+      "entity_type": "pipe_line",
+      "description": "4\" pipeline FROM NGL HEAT RECOVERY EXCHANGER WARM FEED (to V-745).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.98
+    },
+    {
+      "entity_id": null,
+      "name": "4\"-PL-2242-B",
+      "entity_type": "pipe_line",
+      "description": "4\" pipeline FROM NGL COOL FEED (to V-745).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.98
+    },
+    {
+      "entity_id": null,
+      "name": "6\"-PG-0544-B-2\"H",
+      "entity_type": "pipe_line",
+      "description": "6\" reboiled NGL vapor from stabilizer reboiler E-745 (label indicates 2\" H splice).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "size",
+          "value": "6",
+          "unit": "inch",
+          "raw_text": "6\"",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": null,
+      "name": "4\"-PL-2249-B-1 1/2\"H",
+      "entity_type": "pipe_line",
+      "description": "4\" reboiler feed to stabilizer reboiler E-745 (label shows 1 1/2\" H spool).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-22",
+      "entity_type": "valve",
+      "description": "4\" valve (tag MV-745-22) on top-right horizontal line from V-745 (marked 4\"-B2R).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.55,
+        "top": 0.02,
+        "right": 0.76,
+        "bottom": 0.22,
+        "label": "Top-right valve cluster near PSV"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.92
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-07",
+      "entity_type": "valve",
+      "description": "Inline valve tagged MV-745-07 (4\"-A2R) on mid horizontal line to the right of V-745.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.55,
+        "top": 0.02,
+        "right": 0.76,
+        "bottom": 0.22,
+        "label": "Top-right valve cluster near PSV"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-08",
+      "entity_type": "valve",
+      "description": "Small valve on mid-right line (tag shown near '1\"-D2S'). Associated with the line to VRU-785.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.72,
+        "top": 0.24,
+        "right": 0.98,
+        "bottom": 0.56,
+        "label": "Right-side lines to VRU and E-745 with line IDs and valves"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "PSV-745-151",
+      "entity_type": "safety_valve",
+      "description": "Pressure safety valve located at top-right of V-745. Marked 'PSV 745-151' set at 300 PSIG.",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "setpoint",
+          "value": 300.0,
+          "unit": "PSIG",
+          "raw_text": "SET AT 300 PSIG",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.96
+    },
+    {
+      "entity_id": null,
+      "name": "PI-745-15",
+      "entity_type": "pressure_indicator",
+      "description": "Pressure indicator (PI) on top/upper connection of V-745 (tag PI 745-15).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.92
+    },
+    {
+      "entity_id": null,
+      "name": "PIT-745-15",
+      "entity_type": "pressure_indicator_transmitter",
+      "description": "Pressure transmitter (PIT) paired with PI-745-15 (tag PIT 745-15).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "DPIT-745-145",
+      "entity_type": "differential_pressure_transmitter",
+      "description": "Differential pressure transmitter (DPIT) associated with a 5-valve manifold on the vessel (left-side mid elevation).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.18,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.5,
+        "label": "Left-side instrument manifolds and DPITs"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.88
+    },
+    {
+      "entity_id": null,
+      "name": "DPIT-745-135",
+      "entity_type": "differential_pressure_transmitter",
+      "description": "Differential pressure transmitter (DPIT) associated with a 5-valve manifold on the vessel (left-side lower elevation).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.18,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.5,
+        "label": "Left-side instrument manifolds and DPITs"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.86
+    },
+    {
+      "entity_id": null,
+      "name": "5-valve manifold (top)",
+      "entity_type": "manifold",
+      "description": "5-valve manifold for DP/level taps connected to vessel V-745. Individual piping taps use 1/2\"-D6S lines to manifold. Connected valve tags: MV-745-32 (top), MV-745-33 (mid), MV-745-35 (lower), MV-745-36 (lowest).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D6S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-32",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve feeding top 5-valve manifold (tag on left-side connection).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.3,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.42,
+        "label": "Left-side instrument manifolds and DPITs"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.88
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-33",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-745-33) feeding middle 5-valve manifold.",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.87
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-35",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-745-35) feeding lower 5-valve manifold.",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.87
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-36",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-745-36) feeding lowest 5-valve manifold.",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.87
+    },
+    {
+      "entity_id": null,
+      "name": "HOA-745",
+      "entity_type": "local_control",
+      "description": "Hand-Off-Auto selector near pump P-745 (HOA 745).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.18,
+        "top": 0.38,
+        "right": 0.36,
+        "bottom": 0.62,
+        "label": "P-745 and sump"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-59",
+      "entity_type": "valve",
+      "description": "2\" isolation valve on pump P-745 drain/spill line (tag MV-745-59 shown upstream of drain header).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.18,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.5,
+        "label": "Left-side instrument manifolds and DPITs"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "MV-745-58",
+      "entity_type": "valve",
+      "description": "2\" valve (tag MV-745-58) in pump drain/heat-traced line to closed drain header.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.18,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.5,
+        "label": "P-745 and sump"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "TT-745-151",
+      "entity_type": "temperature_transmitter",
+      "description": "Temperature transmitter (TT 745-151) shown near pump/top instrumentation stack.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.44,
+        "top": 0.04,
+        "right": 0.62,
+        "bottom": 0.18,
+        "label": "Top-of-vessel instruments"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.86
+    },
+    {
+      "entity_id": null,
+      "name": "TW-745-151",
+      "entity_type": "temperature_well",
+      "description": "Temperature well or temperature element (TW 745-151) paired with TT-745-151 at pump/top area.",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.44,
+        "top": 0.04,
+        "right": 0.62,
+        "bottom": 0.18,
+        "label": "Top-of-vessel instruments"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.86
+    },
+    {
+      "entity_id": null,
+      "name": "Column of level/temperature instruments (pump area)",
+      "entity_type": "instrument_group",
+      "description": "Stack of instruments at pump area: TSH 745, TAH 745, LSH 745, LAH 745, LSCH 745, LSCL 745 (level/temperature/alarm sensors).",
+      "page_number": 2,
+      "bbox": {
+        "left": 0.22,
+        "top": 0.16,
+        "right": 0.36,
+        "bottom": 0.46,
+        "label": "Mid-left instruments"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "Insulated HOT spool (2\" HOT)",
+      "entity_type": "pipe_segment",
+      "description": "Short insulated spool labeled '1\" HOT' / '2\" DC-3202-A-1\"H-E-HT' connected to P-745 drainage to closed drain header.",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": null,
+      "name": "To closed drain header 10-0610",
+      "entity_type": "pipe_destination",
+      "description": "Closed drain header destination for P-745 drain line (tagged TO CLOSED DRAIN HEADER 10-0610).",
+      "page_number": 2,
+      "bbox": null,
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "R1",
+      "source_ref": "V-745",
+      "target_ref": "VRU-785",
+      "relation_type": "overhead_vapor_to",
+      "line_id": null,
+      "description": "V-745 overhead/vapor line connects to Vapor Recovery Unit VRU-785 via 4\"-PG-0532-A (arrow shown on drawing).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R2",
+      "source_ref": "V-745",
+      "target_ref": "E-745",
+      "relation_type": "reboiler_feed_to",
+      "line_id": null,
+      "description": "V-745 provides reboiler feed to Stabilizer Reboiler E-745 (line labeled 'REBOILER FEED TO STABILIZER REBOILER E-745').",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R3",
+      "source_ref": "E-745",
+      "target_ref": "V-745",
+      "relation_type": "reboiled_vapor_from",
+      "line_id": null,
+      "description": "Reboiled NGL vapor from Stabilizer Reboiler E-745 is shown on a return/connection line (labeled 'REBOILED NGL VAPOR FROM STABILIZER REBOILER E-745').",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R4",
+      "source_ref": "NGL_HEAT_RECOVERY_EXCHANGER",
+      "target_ref": "V-745",
+      "relation_type": "warm_feed_to",
+      "line_id": null,
+      "description": "Warm feed from NGL Heat Recovery Exchanger flows to V-745 (label 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED').",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.85
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "4\"-PG-0532-A",
+      "relation_type": "exports_to",
+      "line_id": null,
+      "description": "V-745 connects to 4\"-PG-0532-A leading to VRU-785.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.97
+    },
+    {
+      "relation_id": null,
+      "source_ref": "4\"-PG-0532-A",
+      "target_ref": "VRU-785",
+      "relation_type": "connects_to",
+      "line_id": null,
+      "description": "4\"-PG-0532-A goes to Vapor Recovery Unit VRU-785 (line label on drawing).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.98
+    },
+    {
+      "relation_id": null,
+      "source_ref": "4\"-PL-2243-B",
+      "target_ref": "V-745",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "4\"-PL-2243-B is labeled 'FROM NGL HEAT RECOVERY EXCHANGER WARM FEED' and feeds V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.98
+    },
+    {
+      "relation_id": null,
+      "source_ref": "NGL Heat Recovery Exchanger",
+      "target_ref": "4\"-PL-2243-B",
+      "relation_type": "supplies",
+      "line_id": null,
+      "description": "Heat exchanger supplies warm feed on 4\"-PL-2243-B to V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": null,
+      "source_ref": "4\"-PL-2242-B",
+      "target_ref": "V-745",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "4\"-PL-2242-B labeled 'FROM NGL COOL FEED' connects to V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.96
+    },
+    {
+      "relation_id": null,
+      "source_ref": "E-745",
+      "target_ref": "6\"-PG-0544-B-2\"H",
+      "relation_type": "exports_to",
+      "line_id": null,
+      "description": "E-745 supplies reboiled NGL vapor via 6\"-PG-0544-B-2\"H to V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "4\"-PL-2249-B-1 1/2\"H",
+      "relation_type": "sends_to",
+      "line_id": null,
+      "description": "V-745 sends reboiler feed via 4\"-PL-2249-B (reboiler feed to E-745).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "MV-745-22",
+      "relation_type": "has_valve_on_outlet",
+      "line_id": null,
+      "description": "Valve MV-745-22 located on a 4\" outlet at top-right of V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "MV-745-07",
+      "relation_type": "has_valve_on_outlet",
+      "line_id": null,
+      "description": "Valve MV-745-07 located on mid horizontal outlet from V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "PSV-745-151",
+      "relation_type": "has_safety_valve",
+      "line_id": null,
+      "description": "PSV-745-151 installed on V-745 (setpoint noted on drawing).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.96
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "PI-745-15",
+      "relation_type": "has_instrument",
+      "line_id": null,
+      "description": "Pressure indicator PI-745-15 on V-745 (top connection).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "PIT-745-15",
+      "relation_type": "has_instrument",
+      "line_id": null,
+      "description": "Pressure transmitter PIT-745-15 associated with PI-745-15 on V-745.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "V-745",
+      "target_ref": "5-valve manifold (top)",
+      "relation_type": "has_manifold",
+      "line_id": null,
+      "description": "Multiple 5-valve manifolds tap vessel at different elevations via 1/2\" lines for level/DP measurements (manifold valves MV-745-32/33/35/36).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "5-valve manifold (top)",
+      "target_ref": "MV-745-32",
+      "relation_type": "includes_valve",
+      "line_id": null,
+      "description": "Top manifold isolation valve MV-745-32 (1/2\"-D6S).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.88
+    },
+    {
+      "relation_id": null,
+      "source_ref": "P-745",
+      "target_ref": "MV-745-59",
+      "relation_type": "drain_line_valve",
+      "line_id": null,
+      "description": "P-745 drain line contains MV-745-59 (2\" D25) upstream toward closed drain header.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "P-745",
+      "target_ref": "MV-745-58",
+      "relation_type": "drain_line_valve",
+      "line_id": null,
+      "description": "P-745 drain/heat-traced line includes MV-745-58 (2\"-D5S) before header.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "P-745",
+      "target_ref": "HOA-745",
+      "relation_type": "has_local_control",
+      "line_id": null,
+      "description": "P-745 is provided with HOA selector 'HOA 745' local to the pump.",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": null,
+      "source_ref": "MV-745-08",
+      "target_ref": "4\"-PG-0532-A",
+      "relation_type": "installed_on",
+      "line_id": null,
+      "description": "MV-745-08 is shown on the mid-right line near the VRU-785 connection (1\"-D2S valve symbol adjacent to 4\"-PG-0532-A).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": null,
+      "source_ref": "TT-745-151",
+      "target_ref": "P-745",
+      "relation_type": "measures_temperature_of",
+      "line_id": null,
+      "description": "TT-745-151 measures temperature in the pump/top area (stacked with TW-745-151).",
+      "page_number": 2,
+      "attributes": {},
+      "confidence": 0.86
+    }
+  ],
+  "notes": [
+    "Extracted major components only: vessel V-745 (NGL stabilizer) and sump pump P-745 are present on this page. Reboiler E-745, VRU-785 and NGL heat recovery exchanger are referenced by piping arrows (off-page connections) and are included as referenced major components.",
+    "Instrument and small valve details were omitted per step instructions except where they provided pressure/safety info clearly tied to a major component (PSV set on V-745 included).",
+    "Extraction focused on page 2 (PID) \u2014 captured major anchors exactly as provided.",
+    "PSV setpoint (300 PSIG) read from drawing near PSV-745-151.",
+    "Several instrument manifold valves (MV-745-32, -33, -35, -36) were identified feeding DP/level instruments on V-745.",
+    "Left-sump pump P-745 drain piping includes insulated heat-traced spool and two isolation valves MV-745-59 and MV-745-58 to closed drain header 10-0610.",
+    "Merged extraction: step1 major components + step2 detailed components."
+  ]
+}

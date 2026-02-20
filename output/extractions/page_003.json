@@ -1,0 +1,942 @@
+{
+  "page_number": 3,
+  "entities": [
+    {
+      "entity_id": "e1",
+      "name": "AC-746",
+      "entity_type": "After Cooler (air cooler)",
+      "description": "After cooler unit with fan and motor (VFD noted as 'VFD BY OTHERS'). Primary tag visible as AC-746. Associated local control/instrumentation indicated (TIC/TIT/TW set) and a temperature control setpoint.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.12,
+        "top": 0.33,
+        "right": 0.55,
+        "bottom": 0.75,
+        "label": "AC-746 area"
+      },
+      "aliases": [
+        "After Cooler AC-746"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "temperature_setpoint",
+          "value": 100.0,
+          "unit": "\u00b0F",
+          "raw_text": "SET @ 100\u00b0 F.",
+          "confidence": 0.85,
+          "bbox": null
+        },
+        {
+          "kind": "instrument_tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "TIC 747 / TIT 747 / TW 747 (local temperature control/instrumentation)",
+          "confidence": 0.75,
+          "bbox": null
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "e2",
+      "name": "E-742",
+      "entity_type": "Heat Recovery Exchanger (exchanger)",
+      "description": "Heat recovery exchanger bank shown with twin horizontal shells/tubes. Primary tag visible as E-742. Insulation callout '2\" THK. HOT INSULATION' present on exchanger shells.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.62,
+        "top": 0.12,
+        "right": 0.95,
+        "bottom": 0.62,
+        "label": "E-742 area"
+      },
+      "aliases": [
+        "E-742 Heat Recovery Exchanger"
+      ],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "insulation_thickness",
+          "value": "2",
+          "unit": "inches",
+          "raw_text": "2\" THK. HOT INSULATION",
+          "confidence": 0.95,
+          "bbox": null
+        },
+        {
+          "kind": "temperature_setpoint",
+          "value": 90.0,
+          "unit": "\u00b0F",
+          "raw_text": "SET @ 90\u00b0 F.",
+          "confidence": 0.8,
+          "bbox": null
+        },
+        {
+          "kind": "instrument_tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "TI/TW 744, TI/TW/TT 742 (local temperature indicators/transmitters)",
+          "confidence": 0.75,
+          "bbox": null
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "P1",
+      "name": "4\"-PL-2242-B",
+      "entity_type": "pipe",
+      "description": "4\" process line to NGL stabilizer - labelled '4\"-PL-2242-B' (cool feed to top tray V-745).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.0,
+        "top": 0.06,
+        "right": 0.16,
+        "bottom": 0.45,
+        "label": "p3_detailed_pipes_measurements_z2_3"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "4",
+          "unit": "in",
+          "raw_text": "4\"",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "V_MV742_12",
+      "name": "MV-742-12",
+      "entity_type": "valve",
+      "description": "Valve on 4\"-PL-2242-B (isolation instrument/line valve). Symbol adjacent to PL-2242-B text.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.08,
+        "top": 0.12,
+        "right": 0.16,
+        "bottom": 0.22,
+        "label": "p3_detailed_pipes_measurements_z2_3"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-742-12",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "P2",
+      "name": "4\"-PL-2243-B",
+      "entity_type": "pipe",
+      "description": "4\" process line to NGL stabilizer (warm feed to mid tray V-745) - labelled '4\"-PL-2243-B'.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.0,
+        "top": 0.26,
+        "right": 0.16,
+        "bottom": 0.38,
+        "label": "p3_detailed_pipes_measurements_z2_3"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "4",
+          "unit": "in",
+          "raw_text": "4\"",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "V_MV742_09",
+      "name": "MV-742-09",
+      "entity_type": "valve",
+      "description": "Valve on 4\"-PL-2243-B (isolation/instrument valve).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.08,
+        "top": 0.28,
+        "right": 0.16,
+        "bottom": 0.34,
+        "label": "p3_detailed_pipes_measurements_z2_3"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-742-09",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "P3",
+      "name": "3\"-PL-2250-B-1\"H",
+      "entity_type": "pipe",
+      "description": "3\" process line labelled '3\"-PL-2250-B-1\"H' (from stabilizer reboiler E-745).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.0,
+        "top": 0.46,
+        "right": 0.16,
+        "bottom": 0.7,
+        "label": "p3_detailed_pipes_measurements_z2_3"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "3",
+          "unit": "in",
+          "raw_text": "3\"",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "V_MV735_11",
+      "name": "MV-735-11",
+      "entity_type": "valve",
+      "description": "Valve on upper header (3\"-B2R) feeding system; tag visible near top header line.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.02,
+        "right": 0.82,
+        "bottom": 0.08,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-735-11",
+          "confidence": 0.8,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "entity_id": "V_MV735_12",
+      "name": "MV-735-12",
+      "entity_type": "valve",
+      "description": "Valve on upper header used as a bypass (tag MV-735-12 visible near top header).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.04,
+        "right": 0.82,
+        "bottom": 0.12,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-735-12",
+          "confidence": 0.8,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "entity_id": "V_MV746_01",
+      "name": "MV-746-01",
+      "entity_type": "valve",
+      "description": "Isolation valve on AC-746 outlet vertical line (3\" nominal line / B2R style symbol shown).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.58,
+        "top": 0.18,
+        "right": 0.64,
+        "bottom": 0.34,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-746-01",
+          "confidence": 0.9,
+          "bbox": null
+        },
+        {
+          "kind": "nominal_size",
+          "value": "3",
+          "unit": "in",
+          "raw_text": "3\" (approx)",
+          "confidence": 0.7,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "V_MV746_02",
+      "name": "MV-746-02",
+      "entity_type": "valve",
+      "description": "Second valve on AC-746 outlet vertical run (downstream of MV-746-01).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.58,
+        "top": 0.3,
+        "right": 0.64,
+        "bottom": 0.44,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-746-02",
+          "confidence": 0.85,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "V_MV746_03",
+      "name": "MV-746-03",
+      "entity_type": "valve",
+      "description": "Small pilot/bleed valve on AC-746 side branch - labelled '1/2\"-D2Z' adjacent to MV-746-03.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.56,
+        "top": 0.34,
+        "right": 0.62,
+        "bottom": 0.46,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "0.5",
+          "unit": "in",
+          "raw_text": "1/2\"-D2Z",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "V_MV746_04",
+      "name": "MV-746-04",
+      "entity_type": "valve",
+      "description": "Downstream valve on AC-746 small side branch (3\"x2\" transition visible, valve tag MV-746-04 readable).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.5,
+        "top": 0.36,
+        "right": 0.58,
+        "bottom": 0.6,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-746-04",
+          "confidence": 0.85,
+          "bbox": null
+        },
+        {
+          "kind": "nominal_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "3\"x2\" (branch reducer)",
+          "confidence": 0.8,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "I_TY_747",
+      "name": "TY-747",
+      "entity_type": "instrument",
+      "description": "Temperature transmitter (TY-747) associated with AC-746. Located near AC-746 outlet/controls.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.54,
+        "top": 0.14,
+        "right": 0.6,
+        "bottom": 0.2,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "I_TIC_747",
+      "name": "TIC-747",
+      "entity_type": "instrument",
+      "description": "Temperature Indicating/Controller TIC-747 with setpoint annotation 'SET @ 100\u00b0F' (controls AC-746 temperature via VFD).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.36,
+        "top": 0.5,
+        "right": 0.46,
+        "bottom": 0.66,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "setpoint_temperature",
+          "value": 100.0,
+          "unit": "F",
+          "raw_text": "SET @ 100\u00b0 F.",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "entity_id": "I_VT_746",
+      "name": "VT-746",
+      "entity_type": "instrument",
+      "description": "Instrument labelled VT-746 (located adjacent to AC-746 motor).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.42,
+        "top": 0.44,
+        "right": 0.48,
+        "bottom": 0.52,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.75
+    },
+    {
+      "entity_id": "E_VFD",
+      "name": "VFD",
+      "entity_type": "equipment",
+      "description": "Variable frequency drive (VFD) for AC-746 motor (label 'VFD BY OTHERS').",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.42,
+        "top": 0.52,
+        "right": 0.48,
+        "bottom": 0.62,
+        "label": "p3_detailed_pipes_measurements_z1_1"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "H_IA",
+      "name": "Instrument Air Header (1\"-IA-5048-M)",
+      "entity_type": "header",
+      "description": "Instrument air supply header labelled 'FROM INSTRUMENT AIR HEADER 1\"-IA-5048-M' (feeds MV-746-08).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.36,
+        "top": 0.68,
+        "right": 0.66,
+        "bottom": 0.86,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "V_MV746_08",
+      "name": "MV-746-08",
+      "entity_type": "valve",
+      "description": "Main 1\" instrument air isolating valve on the instrument air supply branch (label shows '1\"-D2S' at valve).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.4,
+        "top": 0.7,
+        "right": 0.5,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "1",
+          "unit": "in",
+          "raw_text": "1\"-D2S",
+          "confidence": 0.98,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "V_MV746_10",
+      "name": "MV-746-10",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve on the instrument air branch (tag MV-746-10). Shown feeding instrument TY-742 (label 'TO TY-742').",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.52,
+        "top": 0.64,
+        "right": 0.58,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": "0.5",
+          "unit": "in",
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "V_MV742_18",
+      "name": "MV-742-18",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-742-18). Nearby text indicates branch 'TO TY-747'.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.58,
+        "top": 0.62,
+        "right": 0.64,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "entity_id": "V_MV735_15",
+      "name": "MV-735-15",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-735-15) on the instrument air manifold (branch likely 'TO TY-735').",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.66,
+        "top": 0.62,
+        "right": 0.72,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "entity_id": "V_MV746_09",
+      "name": "MV-746-09",
+      "entity_type": "valve",
+      "description": "1/2\" instrument isolation valve (tag MV-746-09) on the instrument air manifold - shown as 'SPARE'.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.74,
+        "top": 0.62,
+        "right": 0.8,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "nominal_size",
+          "value": null,
+          "unit": null,
+          "raw_text": "1/2\"-D2S",
+          "confidence": 0.95,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "entity_id": "V_MV735_16",
+      "name": "MV-735-16",
+      "entity_type": "valve",
+      "description": "Valve on far-right instrument branch with reducer/adaptor labelled '1\"x1/2\" 1/2\"-D2S' (tag MV-735-16).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.86,
+        "top": 0.64,
+        "right": 0.94,
+        "bottom": 0.78,
+        "label": "p3_detailed_pipes_measurements_z2_4"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [
+        {
+          "kind": "tag",
+          "value": null,
+          "unit": null,
+          "raw_text": "MV-735-16",
+          "confidence": 0.95,
+          "bbox": null
+        },
+        {
+          "kind": "note",
+          "value": null,
+          "unit": null,
+          "raw_text": "1\"x1/2\" adaptor to 1/2\" D2S",
+          "confidence": 0.9,
+          "bbox": null
+        }
+      ],
+      "confidence": 0.92
+    },
+    {
+      "entity_id": "I_TY_742",
+      "name": "TY-742",
+      "entity_type": "instrument",
+      "description": "Temperature transmitter / instrument cluster associated with E-742 (left-side cluster). Label 'TO TY-742' appears on one instrument manifold branch.",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.62,
+        "top": 0.26,
+        "right": 0.72,
+        "bottom": 0.4,
+        "label": "p3_detailed_pipes_measurements_z2_2"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.95
+    },
+    {
+      "entity_id": "I_TI_744",
+      "name": "TI-744",
+      "entity_type": "instrument",
+      "description": "Temperature indicator/instrument TI-744 located on top of E-742 (top instrument pair TI/TW-744 visible).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.7,
+        "top": 0.04,
+        "right": 0.78,
+        "bottom": 0.12,
+        "label": "p3_detailed_pipes_measurements_z2_2"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.92
+    },
+    {
+      "entity_id": "I_TW_744",
+      "name": "TW-744",
+      "entity_type": "instrument",
+      "description": "Temperature well/thermowell TW-744 (paired with TI-744 at top of E-742).",
+      "page_number": 3,
+      "bbox": {
+        "left": 0.7,
+        "top": 0.08,
+        "right": 0.78,
+        "bottom": 0.16,
+        "label": "p3_detailed_pipes_measurements_z2_2"
+      },
+      "aliases": [],
+      "attributes": {},
+      "measurements": [],
+      "confidence": 0.9
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "r1",
+      "source_ref": "e1",
+      "target_ref": "e2",
+      "relation_type": "process_flow_to",
+      "line_id": null,
+      "description": "Process flow from AC-746 (after cooler) outlet routed toward E-742 (heat recovery exchanger) as indicated by piping/arrows between the two equipment clusters.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.72
+    },
+    {
+      "relation_id": "R1",
+      "source_ref": "V_MV742_12",
+      "target_ref": "P1",
+      "relation_type": "installed_on",
+      "line_id": null,
+      "description": "MV-742-12 is installed on pipe 4\"-PL-2242-B",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R2",
+      "source_ref": "V_MV742_09",
+      "target_ref": "P2",
+      "relation_type": "installed_on",
+      "line_id": null,
+      "description": "MV-742-09 is installed on pipe 4\"-PL-2243-B",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R3",
+      "source_ref": "V_MV746_01",
+      "target_ref": "E1",
+      "relation_type": "valve_on_outlet_of",
+      "line_id": null,
+      "description": "MV-746-01 is the primary isolation valve on the AC-746 outlet vertical run.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R4",
+      "source_ref": "V_MV746_02",
+      "target_ref": "E1",
+      "relation_type": "valve_on_outlet_of",
+      "line_id": null,
+      "description": "MV-746-02 is on the AC-746 outlet vertical run downstream of MV-746-01.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.85
+    },
+    {
+      "relation_id": "R5",
+      "source_ref": "V_MV746_03",
+      "target_ref": "E1",
+      "relation_type": "control_bleed_on",
+      "line_id": null,
+      "description": "MV-746-03 is a small 1/2\" bleed/isolation valve on a side branch of AC-746.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R6",
+      "source_ref": "V_MV746_04",
+      "target_ref": "E1",
+      "relation_type": "valve_on_sidebranch_of",
+      "line_id": null,
+      "description": "MV-746-04 sits on a 3\"x2\" side branch from AC-746.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.85
+    },
+    {
+      "relation_id": "R7",
+      "source_ref": "I_TY_747",
+      "target_ref": "E1",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "TY-747 temperature transmitter is instrumented on AC-746 (measures cooler temperature).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R8",
+      "source_ref": "I_TIC_747",
+      "target_ref": "E1",
+      "relation_type": "controls",
+      "line_id": null,
+      "description": "TIC-747 (set @100\u00b0F) controls AC-746 temperature (controller output to VFD).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.97
+    },
+    {
+      "relation_id": "R9",
+      "source_ref": "H_IA",
+      "target_ref": "V_MV746_08",
+      "relation_type": "supplies",
+      "line_id": null,
+      "description": "Instrument Air Header (1\"-IA-5048-M) supplies MV-746-08 (1\"-D2S)",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R10",
+      "source_ref": "V_MV746_08",
+      "target_ref": "V_MV746_10",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-746-10 (to TY-742).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R11",
+      "source_ref": "V_MV746_08",
+      "target_ref": "V_MV742_18",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-742-18 (labelled 'TO TY-747').",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R12",
+      "source_ref": "V_MV746_08",
+      "target_ref": "V_MV735_15",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "MV-746-08 (1\" supply) feeds the instrument branch valve MV-735-15 (labelled 'TO TY-735').",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.9
+    },
+    {
+      "relation_id": "R13",
+      "source_ref": "V_MV746_08",
+      "target_ref": "V_MV746_09",
+      "relation_type": "feeds",
+      "line_id": null,
+      "description": "MV-746-08 (1\" supply) feeds the spare instrument valve MV-746-09.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R14",
+      "source_ref": "V_MV735_16",
+      "target_ref": "V_MV746_08",
+      "relation_type": "downstream_of",
+      "line_id": null,
+      "description": "MV-735-16 is located downstream/right of the instrument manifold fed by MV-746-08 (adaptor 1\"x1/2\" then 1/2\"-D2S).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": "R15",
+      "source_ref": "V_MV746_10",
+      "target_ref": "I_TY_742",
+      "relation_type": "supplies_air_to",
+      "line_id": null,
+      "description": "Instrument air line: MV-746-10 supplies instrument TY-742 (label 'TO TY-742').",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R16",
+      "source_ref": "E2",
+      "target_ref": "I_TY_742",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "TY-742 is an instrument associated with E-742 (measures exchanger parameter).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.95
+    },
+    {
+      "relation_id": "R17",
+      "source_ref": "E2",
+      "target_ref": "I_TI_744",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "TI-744 (paired with TW-744) is instrumented on the E-742 unit (top-of-unit instruments).",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.92
+    },
+    {
+      "relation_id": "R18",
+      "source_ref": "E2",
+      "target_ref": "I_TW_744",
+      "relation_type": "instrument_on",
+      "line_id": null,
+      "description": "TW-744 thermowell/temperature instrument paired with TI-744 on E-742.",
+      "page_number": 3,
+      "attributes": {},
+      "confidence": 0.9
+    }
+  ],
+  "notes": [
+    "Extraction focused on major process components (AC-746, E-742) and clearly associated text (setpoints and insulation). Smaller valves/instruments were not exhaustively captured; only high-level instrumentation text clearly tied to the major components was recorded.",
+    "Temperature control note: TIC-747 has setpoint annotated 'SET @ 100\u00b0 F' (controller for AC-746).",
+    "Instrument air manifold: 1\" IA supply (IA-5048-M) -> MV-746-08 -> multiple 1/2\" branches (MV-746-10, MV-742-18, MV-735-15, MV-746-09) feeding TY/TI instruments (labels 'TO TY-742', 'TO TY-747', 'TO TY-735' visible).",
+    "Left-side process lines: 4\"-PL-2242-B and 4\"-PL-2243-B feed to NGL Stabilizer (top and mid tray respectively) and each has a 1\" valve (MV-742-12, MV-742-09) on the drawing.",
+    "AC-746 outlet has a vertical 3\" line with valves MV-746-01 and MV-746-02; a small 1/2\" pilot/bleed valve MV-746-03 and side branch valve MV-746-04.",
+    "Merged extraction: step1 major components + step2 detailed components."
+  ]
+}
